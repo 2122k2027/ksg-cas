@@ -1,0 +1,2305 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+::selection
+{
+    background:plum;
+    color: black;
+}
+.container
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 2;
+    background: #07294E;
+    width: 1007px;
+    height: 60px;
+  
+}
+#email
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+   top: 15px;
+   cursor: copy;
+   transition: 0.5s ease-in;
+}
+#email:hover
+{
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+    filter:drop-shadow(0px 0px 7px white);
+}
+p
+{
+    position: absolute;
+    left: 58px;
+    top: 1px;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 18px;
+}
+p:hover
+{
+    cursor: pointer;
+    color: white;
+    opacity: 2;
+}
+#call
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 258px;
+   top: 18px;
+
+}
+#call
+{  
+    animation: call 1s infinite;
+  
+}
+#call:hover
+{
+    cursor: copy;
+    transition: 0.5s ease-in;
+    filter:drop-shadow(0px 0px 7px white);
+}
+@keyframes call
+{
+    0%
+    {
+        transform: rotate(6deg);
+    }
+   
+}
+h2
+{
+    position: absolute;
+    left: 288px;
+    top: 8px;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 17px;
+}
+h2:hover
+{
+    cursor: pointer;
+    color: white;
+    opacity: 2;
+}
+h3
+{
+    position: absolute;
+    left: 428px;
+    top: 2px;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 18px;
+}
+h3:hover
+{
+    cursor: pointer;
+    color: white;
+    opacity: 2;
+}
+#facebook
+{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 518px;
+   top: 16px;
+   transition: 0.5s ease-in;
+
+}
+#facebook:hover
+{   cursor: copy;
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+    filter:drop-shadow(0px 0px 7px white);
+}
+#insta
+{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 559px;
+   top: 16px;
+   transition: 0.5s ease-in;
+}
+#insta:hover
+{   cursor: copy;
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+    filter:drop-shadow(0px 0px 7px white);
+}
+#youtube
+{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 599px;
+   top: 16px;
+   transition: 0.5s ease-in;
+}
+#youtube:hover
+{   cursor: copy;
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+    filter:drop-shadow(0px 0px 7px white);
+}
+h1
+{
+    position: absolute;
+    left: 648px;
+    top: 9px;
+    font-weight: bold;
+    color:darkorange;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in;
+}
+h1:hover
+{
+    transition: 0.5s ease-in;
+cursor: pointer;
+color: white;
+opacity: 2;
+}
+h4
+{
+    position: absolute;
+    left: 754px;
+    top: -2px;
+    color:darkorange;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in;
+}
+h4:hover
+{
+cursor: pointer;
+color: white;
+opacity: 2;
+transition: 0.5s ease-in;
+}
+h5
+{
+    position: absolute;
+    left: 887px;
+    top: -7px;
+    font-weight: bold;
+    color:darkorange;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in;
+}
+h5:hover
+{
+    transition: 0.5s ease-in;
+cursor: pointer;
+color:white;
+opacity: 2;
+}
+
+#logo
+{
+    position: absolute;
+    width: 150px;
+    height:150px;
+    left: -3px;
+   top: 65px;
+   cursor: copy;
+   transition: 0.9s ease-in;
+}
+#logo:hover
+{
+    transition: 0.9s ease-in;
+    filter:drop-shadow(0px 0px 7px hotpink);
+}
+#Welcome
+{
+    position: absolute;
+    color:#07294E;
+    left: 152px;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: bold;
+   top: 99px;
+   cursor: copy;
+}
+#bhar
+{
+    position: absolute;
+    width: 110px;
+    height:110px;
+    left: 810px;
+   top: 88px;
+   cursor: copy;
+   transition: 0.9s ease-in;
+}
+#bhar:hover
+{
+    transition: 0.9s ease-in;
+    filter:drop-shadow(0px 0px 7px orange);
+}
+#web
+{
+    position: absolute;
+    width: 90px;
+    height:90px;
+    left: 916px;
+   top: 91px;
+   cursor: copy;
+   transition: 0.9s ease-in;
+}
+#web:hover
+{
+    transition: 0.9s ease-in;
+   
+}
+.box2
+{
+    position: absolute;
+    background: skyblue;
+    width: 999px;
+    height: 110px;
+    box-shadow:0px 0px 40px #07294E, inset -10px -10px 10px whitesmoke,inset 10px 10px 10px whitesmoke;
+    top: 210px;
+    left: 5px;
+}
+
+ul
+{
+    display: flex;
+    position: absolute;
+    top:35px;
+    left: -35px;
+    color: #07294E;
+    font-weight: bold;
+}
+ul li
+{
+   
+    cursor: pointer;
+    list-style-type: none;
+    padding: 0px 14.5px;
+    font-size: 17px;
+    transition: 0.3s ease-in;
+}
+ul li a
+{
+    color:#07294E;
+    text-decoration: none;
+}
+ul li a:hover
+{
+    transition: 0.3s ease-in;
+    color: white;
+}
+ul li:active
+{
+    color: tomato;
+}
+#home a:hover
+{ 
+    color: white;
+
+}
+.box3
+{
+   width: 140vmin;
+   height: 420px;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 560px;
+   left: 50%;
+   border-radius: 50px;
+   overflow: hidden;
+   border: 2px solid floralwhite;
+
+}
+.wrapper
+{
+    width: 1200px;
+    height: 1200px;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    25%
+    {
+        transform: translateX(0);
+    }
+    30%
+    {
+        transform: translateX(-89%);
+    }
+    50%
+    {
+        transform: translateX(-89%);
+    }
+    55%
+    {
+        transform: translateX(-180%);
+    }
+    60%
+    {
+        transform: translateX(-180%);
+    }
+    65%
+    {
+        transform: translateX(-270%);
+    }
+    75%
+    {
+        
+       transform: translateX(-360%);
+    }
+  
+
+}
+#one
+{ 
+    width: 1080px;
+    height: 580px;
+}
+.box4
+{
+    position: absolute;
+    width: 970px;
+    height: 450px;
+    background: #07294E;
+    top: 850px;
+    border-radius: 20px;
+    left: 25px;
+    transition: 0.9s ease-in;
+}
+.box4:hover
+{
+    transition: 0.9s ease-in;
+
+}
+#ksg
+{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 40px;
+    cursor:default;
+    left: 50px;
+    font-family: cooper;
+}
+#ksg:hover
+{
+    color: crimson;
+}
+#para
+{
+    position: absolute;
+    color: white;
+   font-size: 25px;
+    top: 140px;
+    cursor: default;
+    width: 250px;
+}
+button
+{
+    position: absolute;
+    top: 360px;
+    font-size: 15px;
+    font-family: Perpetua Titling MT;
+    height: 50px;
+    font-weight: bold;
+    width: 290px;
+    border-radius: 10px;
+    background: orange;
+    left: 55px;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+button:hover
+{
+    transition: 1s ease-in;
+    box-shadow: inset -145px 0px 10px lightskyblue,inset 145px 0px 10px lightskyblue;
+}
+
+.box5
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    cursor: pointer;
+    background:lightcoral;
+    border-radius: 10px;
+    top: 999px;
+    left: 410px;
+    transition: 1s ease-in;
+}
+.box5:hover
+{
+    transition: 1s ease-in;
+    box-shadow: inset -85px 0px 10px lightgreen,inset 145px 0px 10px lightskyblue;   
+}
+#bus
+{
+    position: absolute;
+    width: 170px;
+    left: -5px;
+    top: 10px;
+    height: 120px;
+    animation: 4s bus infinite;
+}
+@keyframes bus
+{
+    0%
+    {
+        transform: translateY(-5px);
+    }
+    10%
+    {
+        transform: translateY(-11px);
+    }
+    90%
+    {
+        transform: translateY(5px);
+    }
+    100%
+    {
+        transform: translateY(-5px);
+    }
+}
+#bus1
+{
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    left: 30px;
+    letter-spacing: 2px;
+    font-family:Poor Richard ;
+}
+.one
+{
+    position: absolute;
+    left: 170px;
+
+}
+#bus2
+{
+    
+    position: absolute;
+    width: 140px;
+    left: 10px;
+    top: 10px;
+    height: 120px;
+    animation: 4s bus infinite;
+}
+#bus3
+{
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    left: 42px;
+    letter-spacing: 2px;
+    font-family:Poor Richard ;
+}
+.box6
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background:tomato;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 999px;
+    left: 440px;
+    transition: 1s ease-in;
+}
+.box6:hover
+{
+    transition: 1s ease-in;
+    box-shadow: inset -85px 0px 10px lightcoral,inset 145px 0px 10px limegreen;   
+}
+.two
+{
+    position: absolute;
+    left: 370px;
+}
+#bus6
+{
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    left: 36px;
+    letter-spacing: 2px;
+    font-family:Poor Richard ;
+}
+.box8
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background:lightseagreen;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 999px;
+    left: 440px;
+    transition: 1s ease-in;
+}
+.box8:hover
+{
+    transition: 1s ease-in;
+    box-shadow: inset -85px 0px 10px lightsalmon,inset 145px 0px 10px lightgreen;   
+}
+.box9
+{
+    position: absolute;
+}
+#Student
+{
+    position: absolute;
+    top: 1400px;
+    width: 500px;
+    height: 610px;
+    left: 490px;
+    transition: 0.4s ease-in;
+}
+#Student:hover
+{
+    transition: 0.4s ease-in;
+    filter: drop-shadow(0px 0px 10px black);
+}
+#about
+{
+    position: absolute;
+    color: #07294E;
+    font-weight: 900;
+    font-family: Rockwell;
+    opacity: 1;
+    font-size: 22px;
+    width: 200px;
+    top: 1400px;
+    left: 40px;
+    cursor: default;
+}
+#line
+{
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    background: transparent;
+    top: 1440px;
+    left: 50px;
+    cursor: default;
+    animation: 3s bar infinite; 
+}
+#about:hover
+{
+    color:firebrick;
+}
+@keyframes bar
+{
+  
+    0%
+    {
+        background:orange;
+        transform: translateX(0px);
+    }
+    10%
+    {
+        background:orange;
+        transform: translateX(-8px);
+    }
+    100%
+    {
+        background:orange;
+        transform: translateX(4px);
+    }
+}
+#wel
+{
+    position: absolute;
+    width: 370px;
+    color: #07294E;
+    font-weight: bold;
+    font-family:  Rockwell;
+    font-size: 40px;
+    top: 1450px;
+    left: 35px;
+    cursor: default;
+}
+#wel:hover
+{
+    color:crimson;
+}
+#abouts
+{
+    position: absolute;
+    color: black;
+    font-weight: 500;
+    font-family: Sitka Heading;
+    opacity: 1;
+    cursor: default;
+    letter-spacing: 2px;
+    width: 400px;
+    top: 1580px;
+    left: 40px;
+}
+#icon
+{
+    position: absolute;
+    width: 57px;
+    height: 55px;
+    left: 950px;
+   top: 1px;
+   cursor: copy;
+   transition: 0.9s ease-in;
+}
+#learn
+{
+    position: absolute;
+    top: 1950px;
+    width: 160px;
+    left: 40px;
+}
+.box10
+{
+    position: absolute;
+    width: 440px;
+    height: 300px;
+    background: #07294E;
+    top: 2110px;
+    border-radius: 20px;
+    left: 25px;
+}
+#port
+{
+    position: absolute;
+    top: 5px;
+    font-size: 35px;
+    cursor: default;
+    font-family:Bookman Old Style ;
+    left: 40px;
+    color: white;
+    transition: 0.6s ease-in;
+}
+#port:hover
+{
+    transition: 0.6s ease-in;
+    color: crimson;
+}
+#Login
+{
+    position: absolute;
+    top: 70px;
+    font-size: 18px;
+    opacity: 1;
+    cursor: default;
+    width: 330px;
+    font-family:Bookman Old Style ;
+    left: 40px;
+    color: white;
+}
+#log
+{
+    position: absolute;
+    top: 220px;
+    
+    width: 150px;
+    left: 40px;
+}
+.three
+{
+    position: absolute;
+    left: 500px;
+}
+#Logins
+{
+    position: absolute;
+    top: 70px;
+    font-size: 18px;
+    opacity: 1;
+    cursor: default;
+    width: 380px;
+    font-family:Bookman Old Style ;
+    left: 40px;
+    color: white;
+}
+#logs
+{
+    
+    position: absolute;
+    top: 220px;
+    width: 150px;
+    left: 40px;
+   
+}
+.box11
+{
+    position: absolute;
+    width: 947px;
+    height: 670px;
+    background: #07294E;
+    top: 2480px;
+    border-radius: 20px;
+    left: 25px;
+}
+#acad
+{
+    position: absolute;
+    width: 800px;
+    top: 70px;
+    left: 72px;
+    height: 550px;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+}
+#acad:hover
+{
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 50px skyblue;
+}
+.box12
+{
+    position: absolute;
+}
+#campus
+{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 3250px;
+    left: 30px;
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+}
+#campus:hover
+{
+    transform: rotate(1deg);
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 50px tomato;
+}
+.box13
+{
+    position: absolute;
+    width: 507px;
+    height: 400px;
+    background: #07294E;
+    top: 3250px;
+    border-radius: 20px;
+    left: 465px;
+    transition: 0.3s ease-in;
+}
+.box13:hover
+{
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 50px teal;
+}
+#life
+{
+    position: absolute;
+    top: -2px;
+    color: #fff;
+    font-size: 35px;
+    font-family:Cooper ;
+    left: 45px;
+}
+#life:hover
+{
+    color: crimson;
+}
+#cert
+{
+    position: absolute;
+    width: 80px;
+    height: 110px;
+    top: 98px;
+    cursor: default;
+    left: 45px;
+    transition: 1s ease-in;
+}
+#cert:hover
+{
+    transition: 1s ease-in;
+    transform: translateY(-10px);
+    filter: drop-shadow(0px 0px 10px white);
+}
+#global
+{
+    position: absolute;
+    color: white;
+    cursor: default;
+    top: 75px;
+    opacity: 1;
+    font-size: 25px;
+    font-family:cooper ;
+    font-weight: bold;
+    left: 180px;
+}
+#place
+{
+    position: absolute;
+    color: white;
+    top: 110px;
+    left:180px;
+    cursor: default;
+    font-weight: bold;
+}
+#ment
+{
+
+    position: absolute;
+    width: 90px;
+    height: 155px;
+    top: 248px;
+    left: 45px;
+    cursor: default;
+    transition: 1s ease-in;
+}
+#ment:hover
+{
+    transition: 1s ease-in;
+    transform: translateY(-10px);
+    filter: drop-shadow(0px 0px 3px white);
+}
+#ments
+{
+
+    position: absolute;
+    color: white;
+    top: 248px;
+    opacity: 1;
+    font-size: 25px;
+    cursor: default;
+    font-family:cooper ;
+    font-weight: bold;
+    left: 180px;
+}
+#pla
+{
+    position: absolute;
+    color: white;
+    top: 290px;
+    left:180px;
+    width: 300px;
+    cursor: default;
+    font-weight: bold;
+}
+.box14
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: transparent;
+    top: 3750px;
+    left: 440px;
+    box-shadow: 0px 0px 2px crimson;
+    border-radius: 20px;
+}
+#aft
+{
+    transition: 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+  
+}
+#aft:hover
+{
+    transition: 1s ease-in-out;
+   transform: scale(1.1);
+}
+#anual
+{
+    position: absolute;
+    width: 210px;
+    font-size: 12px;
+    top: 200px;
+    left: 20px;
+    height: 40px;
+    background: white;
+}
+#anual:hover
+{
+    color:red;
+}
+.four
+{
+    position: absolute;
+    left: 280px;
+}
+.five
+{
+    position:absolute;
+    top: 290px;
+}
+.six
+{
+    position: absolute;
+    top: 299px;
+    left: 280px;
+}
+.box15
+{
+    position: absolute;
+}
+#cas
+{
+    position: absolute;
+    top: 3720px;
+    font-size: 19px;
+    width: 100px;
+    color: #07294E;
+    font-weight: bold;
+    font-family: cooper;
+    left: 40px;
+}
+#bars
+{
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    background: orange;
+    top: 3745px;
+    left: 50px;
+    cursor: default;
+    animation: 3s bars infinite; 
+}
+@keyframes bars
+{
+  
+    0%
+    {
+        background:orange;
+        transform: translateX(0px);
+    }
+    10%
+    {
+        background:orange;
+        transform: translateX(-8px);
+    }
+    100%
+    {
+        background:orange;
+        transform: translateX(4px);
+    }
+}
+#event
+{
+    position: absolute;
+    top: 3720px;
+    opacity: 1;
+    font-size: 55px;
+    left: 30px;
+    color: black;
+    width: 450px;
+}
+#event:hover
+{
+    color: crimson;
+}
+#digit
+{
+    position: absolute;
+    color: black;
+    top: 3840px;
+    cursor: default;
+    left: 30px;
+    width: 320px;
+}
+.box16
+{
+    position: absolute;
+}
+#our
+{
+    position: absolute;
+    top: -10px;
+    color: #07294E;
+    cursor: default;
+    top: 4400px;
+    width: 800px;
+    font-size: 50px;
+    left: 207px;
+}
+
+
+#a
+{
+   position: relative;
+ padding-top: 50px;
+ padding-left: 20px;
+    top: 4260px;
+    left: 40px;
+    width: 150px;
+    height: 90px;
+    transition: 1s ease-in;
+}
+#a:hover
+{
+    filter: drop-shadow(0px 0px 2px black);
+    transition: 1s ease-in;
+    transform: scale(1.1);
+}
+.box18
+{
+    position: absolute;
+    width: 980px;
+    height: 500px;
+    background: #07294E;
+    top: 4900px;
+    border-radius: 20px;
+    left: 25px;
+}
+#pad
+{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+}
+#pad:hover
+{
+  filter: drop-shadow(0px 0px 20px black);
+}
+#col
+{
+    position: absolute;
+    top: 49px;
+    opacity: 1;
+    cursor: default;
+    font-size: 30px;
+    left: 140px;
+    transition: 0.5s ease-in;
+}
+#col:hover
+{
+    transition: 0.5s ease-in;
+    color: crimson;
+}
+#the
+{
+    position: absolute;
+    top: 130px;
+    left: 53px;
+    cursor: default;
+    font-weight: bold;
+    width: 200px;
+}
+#b1
+{
+    position: absolute;
+    width: 35px;
+    top: 340px;
+    left: 48px;
+    height: 40px;
+    cursor: pointer;
+}
+#b1:hover
+{
+    filter: drop-shadow(0px 0px 10px lightskyblue);
+}
+#b2
+{
+    position: absolute;
+    width: 35px;
+    top: 340px;
+    left: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+#b2:hover
+{
+    filter: drop-shadow(0px 0px 10px skyblue);
+}
+#b3
+{
+    position: absolute;
+    width: 30px;
+    top: 340px;
+    left: 133px;
+    height: 40px;
+    cursor: pointer;
+}
+#b3:hover
+{
+    filter: drop-shadow(0px 0px 10px lightgreen);
+}
+#b4
+{
+    position: absolute;
+    width: 35px;
+    top: 340px;
+    left: 170px;
+    height: 40px;
+    cursor: pointer;
+}
+#b4:hover
+{
+    filter: drop-shadow(0px 0px 10px hotpink);
+}
+ .box19
+ {
+    position: absolute;
+ }
+#u1
+{
+    position: absolute;
+    top: 5020px;
+    left: 380px;
+    z-index: 1;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    color: white;
+    column-gap: 25px;
+}
+#u1 #l1
+{
+   padding-top: 20px; 
+}
+#u1 #l1:hover
+{
+    transform: translateX(5px);
+    color: white;
+}
+.fa-solid
+{
+    position: absolute;
+    color: gold;
+    top: 23px;
+    font-size: 14px;
+    left: 38px;
+}
+#f1
+{
+    position: absolute;
+    color: gold;
+    top: 63px;
+    font-size: 14px;
+    left: 38px;
+}
+#f2
+{
+    position: absolute;
+    color: gold;
+    top: 103px;
+    font-size: 14px;
+    left: 38px;
+}
+#f4
+{
+    position: absolute;
+    color: gold;
+    top: 143px;
+    font-size: 14px;
+    left: 38px;
+}
+#f5
+{
+    position: absolute;
+    color: gold;
+    top: 183px;
+    font-size: 14px;
+    left: 38px;
+}
+#f6
+{
+    position: absolute;
+    color: gold;
+    top: 23px;
+    font-size: 14px;
+    left: 166px;
+}
+#f7
+{
+    position: absolute;
+    color: gold;
+    top: 63px;
+    font-size: 14px;
+    left: 166px;
+}
+#f8
+{
+    position: absolute;
+    color: gold;
+    top: 103px;
+    font-size: 14px;
+    left: 166px;
+}
+#f9
+{
+    position: absolute;
+    color: gold;
+    top: 143px;
+    font-size: 14px;
+    left: 166px;
+}
+#f10
+{
+    position: absolute;
+    color: gold;
+    top: 183px;
+    font-size: 14px;
+    left: 166px;
+}
+#site
+{
+    position: absolute;
+    top: 4980px;
+    left: 465px;
+    font-size: 25px;
+    color: #fff;
+    cursor: default;
+    font-family: cooper;
+}
+#site:hover
+{
+    color: crimson;
+}
+#u1 #l1 a
+{
+    text-decoration: none;
+    color: #fff;
+}
+#u1 #l1 a:active
+{
+    transition: 0.2s;
+    color:crimson;
+}
+#u2
+{
+    position: absolute;
+    list-style: none;
+    top: 5025px;
+    display: block;
+    color: white;
+    left: 640px;
+}
+#u2 #l2
+{
+   padding-top: 20px;
+}
+#u2 #l2:active
+{
+    transition: 0.1s;
+    color: crimson;
+}
+#n1
+{
+    position: absolute;
+    color: gold;
+    top: 22px;
+    font-size: 14px;
+    left: 39px;
+}
+#n2
+{
+    position: absolute;
+    color: gold;
+    top: 63px;
+    font-size: 14px;
+    left: 39px;
+}
+#n3
+{
+    position: absolute;
+    color: gold;
+    top: 103px;
+    font-size: 14px;
+    left: 39px;
+}
+#n4
+{
+    position: absolute;
+    color: gold;
+    top: 143px;
+    font-size: 14px;
+    left: 39px;
+}
+#n5
+{
+    position: absolute;
+    color: gold;
+    top: 183px;
+    font-size: 14px;
+    left: 39px;
+}
+#u2 #l2:hover
+{
+    transform: translateX(5px);
+}
+#act
+{
+    position: absolute;
+    top: 4980px;
+    color: white;
+    left: 660px;
+    font-size: 25px;
+    cursor: default;
+    font-family: cooper;
+}
+#act:hover
+{
+    color: crimson;
+}
+.box21
+{
+    position: absolute;
+}
+#cont
+{
+    position: absolute;
+    top: 4980px;
+    left: 830px;
+    font-size: 25px;
+    cursor: default;
+    font-family: cooper;
+    color: white;
+    width: 150px;
+
+}
+#cont:hover
+{
+    color: crimson;
+}
+#add
+{
+    position: absolute;
+    top: 5040px;
+    left: 836px;
+    font-size: 15px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 150px;
+
+}
+#num
+{
+    position: absolute;
+    top: 5133px;
+    left: 838px;
+    font-size: 15px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 150px;
+}
+#num2
+{
+    position: absolute;
+    top: 5198px;
+    left: 838px;
+    font-size: 15px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 150px;
+}
+#num3
+{
+    position: absolute;
+    top: 5258px;
+    left: 838px;
+    font-size: 15px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 150px;
+}
+#num4
+{
+    position: absolute;
+    top: 5316px;
+    left: 838px;
+    font-size: 17px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 150px;
+}
+#s1
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    top: 5058px;
+    left: 810px;
+}
+#s2
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    top: 5145px;
+    left: 810px;
+}
+#s3
+{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    z-index: 1;
+    top: 5208px;
+    left: 808px;
+}
+#s4
+{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    z-index: 1;
+    top: 5268px;
+    left: 808px;
+}
+#s5
+{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    z-index: 1;
+    top: 5330px;
+    left: 808px;
+}
+
+
+
+@media(max-width:600px)
+{
+    .box
+    {
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        z-index: 2;
+        background: #07294E;
+        width: 827px;
+        height: 60px;
+      
+    }
+    #email
+{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 5px;
+   top: 15px;
+   cursor: copy;
+   transition: 0.5s ease-in;
+}
+p
+{
+    position: absolute;
+    left: 33px;
+    top: 4px;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 15px;
+}
+#call
+{
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    left: 198px;
+   top: 16px;
+
+}
+h2
+{
+    position: absolute;
+    left: 218px;
+    top: 10px;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+}
+h3
+{
+    position: absolute;
+    left: 326px;
+    top: 6px;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 15px;
+}
+#facebook
+{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 398px;
+   top: 16px;
+   transition: 0.5s ease-in;
+
+}
+#insta
+{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 439px;
+   top: 16px;
+   transition: 0.5s ease-in;
+}
+
+#youtube
+{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 479px;
+   top: 16px;
+   transition: 0.5s ease-in;
+}
+h1
+{
+    position: absolute;
+    left: 517px;
+    top: 10px;
+    font-weight: bold;
+    color:darkorange;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in;
+}
+h4
+{
+    position: absolute;
+    left: 629px;
+    top: -1px;
+    color:darkorange;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in;
+}
+#logo
+{
+    position: absolute;
+    width: 110px;
+    height:110px;
+    left: -3px;
+   top: 92px;
+   cursor: copy;
+   transition: 0.9s ease-in;
+}
+
+#Welcome
+{
+    position: absolute;
+    color:#07294E;
+    left: 112px;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+   top: 119px;
+   cursor: copy;
+}
+#bhar
+{
+    position: absolute;
+    width: 110px;
+    height:110px;
+    left: 580px;
+   top: 93px;
+   cursor: copy;
+   transition: 0.9s ease-in;
+}
+#web
+{
+    position: absolute;
+    width: 90px;
+    height:90px;
+    left: 686px;
+   top: 91px;
+   cursor: copy;
+   transition: 0.9s ease-in;
+}
+.box2
+{
+    position: absolute;
+    background: skyblue;
+    width: 770px;
+    height: 110px;
+    box-shadow:0px 0px 40px #07294E, inset -10px -10px 10px whitesmoke,inset 10px 10px 10px whitesmoke;
+    top: 210px;
+    left: 5px;
+}
+ul li
+{
+   
+    cursor: pointer;
+    list-style-type: none;
+    padding: 0px 1.5px;
+    font-size: 17px;
+    transition: 0.3s ease-in;
+}
+.box3
+{
+   width: 140vmin;
+   height: 420px;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 560px;
+   left: 60%;
+   border-radius: 50px;
+   overflow: hidden;
+   border: 2px solid floralwhite;
+}
+.box4
+{
+    position: absolute;
+    width: 770px;
+    height: 450px;
+    background: #07294E;
+    top: 850px;
+    border-radius: 20px;
+    left: -5px;
+    transition: 0.9s ease-in;
+}
+#para
+{
+    position: absolute;
+    color: white;
+   font-size: 20px;
+    top: 140px;
+    cursor: default;
+    width: 230px;
+}
+.box5
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    cursor: pointer;
+    background:lightcoral;
+    border-radius: 10px;
+    top: 999px;
+    left: 253px;
+    transition: 1s ease-in;
+}
+
+#bus
+{
+    position: absolute;
+    width: 170px;
+    left: -5px;
+    top: 10px;
+    height: 120px;
+    animation: 4s bus infinite;
+}
+@keyframes bus
+{
+    0%
+    {
+        transform: translateY(-5px);
+    }
+    10%
+    {
+        transform: translateY(-11px);
+    }
+    90%
+    {
+        transform: translateY(5px);
+    }
+    100%
+    {
+        transform: translateY(-5px);
+    }
+}
+#bus1
+{
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    left: 30px;
+    letter-spacing: 2px;
+    font-family:Poor Richard ;
+}
+.one
+{
+    position: absolute;
+    left: 170px;
+
+}
+#bus2
+{
+    
+    position: absolute;
+    width: 140px;
+    left: 10px;
+    top: 10px;
+    height: 120px;
+    animation: 4s bus infinite;
+}
+#bus3
+{
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    left: 42px;
+    letter-spacing: 2px;
+    font-family:Poor Richard ;
+}
+.box6
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background:tomato;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 999px;
+    left: 258px;
+    transition: 1s ease-in;
+}
+.box6:hover
+{
+    transition: 1s ease-in;
+    box-shadow: inset -85px 0px 10px lightcoral,inset 145px 0px 10px limegreen;   
+}
+.two
+{
+    position: absolute;
+    left: 370px;
+}
+#bus6
+{
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    left: 36px;
+    letter-spacing: 2px;
+    font-family:Poor Richard ;
+}
+.box8
+{
+    position: absolute;
+    width: 160px;
+    height: 180px;
+    background:lightseagreen;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 999px;
+    left: 230px;
+    transition: 1s ease-in;
+}
+.box8:hover
+{
+    transition: 1s ease-in;
+    box-shadow: inset -85px 0px 10px lightsalmon,inset 145px 0px 10px lightgreen;   
+}
+#Student
+{
+    position: absolute;
+    top: 1400px;
+    width: 300px;
+    height: 610px;
+    left: 490px;
+    transition: 0.4s ease-in;
+}
+#Student:hover
+{
+    transition: 0.4s ease-in;
+    filter: drop-shadow(0px 0px 10px black);
+}
+.box10
+{
+    position: absolute;
+    width: 340px;
+    height: 300px;
+    background: #07294E;
+    top: 2110px;
+    border-radius: 20px;
+    left: 25px;
+}
+#Login
+{
+    position: absolute;
+    top: 70px;
+    font-size: 18px;
+    opacity: 1;
+    cursor: default;
+    width: 330px;
+    font-family:Bookman Old Style ;
+    left: 10px;
+    color: white;
+}
+.three
+{
+    position: absolute;
+    left: 390px;
+}
+#Logins
+{
+    position: absolute;
+    top: 70px;
+    font-size: 18px;
+    opacity: 1;
+    cursor: default;
+    width: 380px;
+    font-family:Bookman Old Style ;
+    left: 10px;
+    color: white;
+}
+.box11
+{
+    position: absolute;
+    width: 747px;
+    height: 670px;
+    background: #07294E;
+    top: 2480px;
+    border-radius: 20px;
+    left: 25px;
+}
+#acad
+{
+    position: absolute;
+    width: 600px;
+    top: 70px;
+    left: 72px;
+    height: 550px;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+}
+#acad:hover
+{
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 50px skyblue;
+}
+#campus
+{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 3250px;
+    left: 30px;
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+}
+#campus:hover
+{
+    transform: rotate(1deg);
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 50px tomato;
+}
+.box13
+{
+    position: absolute;
+    width: 427px;
+    height: 400px;
+    background: #07294E;
+    top: 3250px;
+    border-radius: 20px;
+    left: 345px;
+    transition: 0.3s ease-in;
+}
+.box13:hover
+{
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 50px teal;
+}
+.box14
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: transparent;
+    top: 3750px;
+    left: 440px;
+    box-shadow: 0px 0px 0px ;
+    border-radius: 20px;
+}
+#aft
+{
+    transition: 1s ease-in-out;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    margin-left: -60px;
+
+  
+}
+#aft:hover
+{
+    transition: 1s ease-in-out;
+   transform: scale(1.1);
+}
+#anual
+{
+    position: absolute;
+    width: 160px;
+    font-size: 12px;
+    top: 200px;
+    left: -60px;
+    height: 40px;
+    background: white;
+}
+#anual:hover
+{
+    color:red;
+}
+.four
+{
+    position: absolute;
+    left: 210px;
+}
+.five
+{
+    position:absolute;
+    top: 290px;
+}
+.six
+{
+    position: absolute;
+    top: 299px;
+    left: 210px;
+}
+#our
+{
+    position: absolute;
+    top: -10px;
+    color: #07294E;
+    cursor: default;
+    top: 4400px;
+    width: 800px;
+    font-size: 50px;
+    left: 107px;
+}
+#a
+{
+   position: relative;
+ padding-top: 50px;
+ padding-left: 10px;
+    top: 4260px;
+    left: 140px;
+    width: 160px;
+    height: 90px;
+    transition: 1s ease-in;
+}
+#a:hover
+{
+    filter: drop-shadow(0px 0px 2px black);
+    transition: 1s ease-in;
+    transform: scale(1.1);
+}
+.box18
+{
+    position: absolute;
+    width: 790px;
+    height: 620px;
+    background: #07294E;
+    top: 5000px;
+    border-radius: 20px;
+    left: 25px;
+}
+.fa-solid
+{
+    position: absolute;
+    color: gold;
+    top: 23px;
+    font-size: 14px;
+    left: 30px;
+}
+#f1
+{
+    position: absolute;
+    color: gold;
+    top: 63px;
+    font-size: 14px;
+    left: 30px;
+}
+#f2
+{
+    position: absolute;
+    color: gold;
+    top: 103px;
+    font-size: 14px;
+    left: 30px;
+}
+#f4
+{
+    position: absolute;
+    color: gold;
+    top: 143px;
+    font-size: 14px;
+    left: 30px;
+}
+#f5
+{
+    position: absolute;
+    color: gold;
+    top: 183px;
+    font-size: 14px;
+    left: 30px;
+}
+#f6
+{
+    position: absolute;
+    color: gold;
+    top: 23px;
+    font-size: 14px;
+    left: 155px;
+}
+#f7
+{
+    position: absolute;
+    color: gold;
+    top: 63px;
+    font-size: 14px;
+    left: 155px;
+}
+#f8
+{
+    position: absolute;
+    color: gold;
+    top: 103px;
+    font-size: 14px;
+    left: 155px;
+}
+#f9
+{
+    position: absolute;
+    color: gold;
+    top: 143px;
+    font-size: 14px;
+    left: 155px;
+}
+#f10
+{
+    position: absolute;
+    color: gold;
+    top: 183px;
+    font-size: 14px;
+    left: 155px;
+}
+#act
+{
+    position: absolute;
+    top: 4980px;
+    color: white;
+    left: 620px;
+    font-size: 25px;
+    cursor: default;
+    font-family: cooper;
+}
+#act:hover
+{
+    color: crimson;
+}
+#u2
+{
+    position: absolute;
+    list-style: none;
+    top: 5025px;
+    display: block;
+    color: white;
+    left: 620px;
+}
+#u2 #l2
+{
+   padding-top: 20px;
+}
+#u2 #l2:active
+{
+    transition: 0.1s;
+    color: crimson;
+}
+#n1
+{
+    position: absolute;
+    color: gold;
+    top: 22px;
+    font-size: 14px;
+    left: 30px;
+}
+#n2
+{
+    position: absolute;
+    color: gold;
+    top: 63px;
+    font-size: 14px;
+    left: 30px;
+}
+#n3
+{
+    position: absolute;
+    color: gold;
+    top: 103px;
+    font-size: 14px;
+    left: 30px;
+}
+#n4
+{
+    position: absolute;
+    color: gold;
+    top: 143px;
+    font-size: 14px;
+    left: 30px;
+}
+#n5
+{
+    position: absolute;
+    color: gold;
+    top: 183px;
+    font-size: 14px;
+    left: 30px;
+}
+
+#cont
+{
+    position: absolute;
+    top: 5300px;
+    left: 480px;
+    font-size: 25px;
+    cursor: default;
+    font-family: cooper;
+    color: white;
+    width: 150px;
+
+}
+#cont:hover
+{
+    color: crimson;
+}
+
+#s1
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    top: 5358px;
+    left: 450px;
+}
+#s2
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    top: 5410px;
+    left: 450px;
+}
+#s3
+{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    z-index: 1;
+    top: 5458px;
+    left: 450px;
+}
+#s4
+{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    z-index: 1;
+    top: 5504px;
+    left: 450px;
+}
+#s5
+{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    z-index: 1;
+    top: 5560px;
+    left: 450px;
+}
+#add
+{
+    position: absolute;
+    top: 5338px;
+    left: 480px;
+    font-size: 15px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 230px;
+
+}
+#num
+{
+    position: absolute;
+    top: 5398px;
+    left: 480px;
+    font-size: 15px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 230px;
+}
+#num2
+{
+    position: absolute;
+    top: 5448px;
+    left: 480px;
+    font-size: 15px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 230px;
+}
+#num3
+{
+    position: absolute;
+    top: 5490px;
+    left: 480px;
+    font-size: 15px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 150px;
+}
+#num4
+{
+    position: absolute;
+    top: 5546px;
+    left: 480px;
+    font-size: 17px;
+    cursor: default;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+    width: 150px;
+}
+}
