@@ -3,2630 +3,1032 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K.S.G College Of Arts And Science</title>
-    <link rel="icon" href="./ipad.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-<style>
-  html
+    <title>Cake Shop</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><link rel="icon" href="./logo.jpg">
+    <link rel="stylesheet" href="cake.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> <style>
+        html
 {
     scroll-behavior: smooth;
 }
+
+
 body
 {
-    margin: 0;
-    padding: 0;
-    background: #fff;
+    background:whitesmoke;
 }
 ::selection
 {
-    background:plum;
-    color: black;
+    background: violet;
+    color: aqua;
 }
-.container
+#container
 {
-   display: flex;
-   flex-wrap: wrap;
-}
-.box
-{
+    position: relative;
+    background: rgba(245, 222, 179, 0.86);
+    width: 1360px;
+    height: 65px;
+    left: -30px;
+    top: -5px;
+    border-radius: 2px;
     display: flex;
     flex-wrap: wrap;
-    position: fixed;
-    z-index: 2;
-    background: #07294E;
-    width: 1007px;
-    height: 60px;
-  
 }
-#email
+ul
 {
+   margin-left: 22.5%;
+   display: flex;
+   list-style: none;
+}
+li::before
+{
+    content: "";
     position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 20px;
-   top: 15px;
-   cursor: copy;
-   transition: 0.5s ease-in;
-}
-#email:hover
-{
-    transition: 0.5s ease-in;
-    transform: rotate(360deg);
-    filter:drop-shadow(0px 0px 7px white);
-}
-p
-{
-    position: absolute;
-    left: 58px;
-    top: 1px;
-    color: #fff;
-    opacity: 0.8;
-    font-size: 18px;
-}
-p:hover
-{
-    cursor: pointer;
-    color: white;
-    opacity: 2;
-}
-#call
-{
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 258px;
-   top: 18px;
+    background: red;
+    width: 50px;
+    top: 50px;
+    height: 3px;
+   opacity: 0;
+   transition: 1s ease-in;
 
 }
-#call
-{  
-    animation: call 1s infinite;
-  
-}
-#call:hover
+li:hover::before
 {
-    cursor: copy;
-    transition: 0.5s ease-in;
-    filter:drop-shadow(0px 0px 7px white);
-}
-@keyframes call
-{
-    0%
-    {
-        transform: rotate(6deg);
-    }
-   
-}
-h2
-{
-    position: absolute;
-    left: 288px;
-    top: 8px;
-    color: #fff;
-    opacity: 0.8;
-    font-size: 17px;
-}
-h2:hover
-{
-    cursor: pointer;
-    color: white;
+    transition: 1s ease-in;
+    transform: translateX(15px);
     opacity: 2;
-}
-h3
-{
-    position: absolute;
-    left: 428px;
-    top: 2px;
-    color: #fff;
-    opacity: 0.8;
-    font-size: 18px;
-}
-h3:hover
-{
-    cursor: pointer;
-    color: white;
-    opacity: 2;
-}
-#facebook
-{
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 518px;
-   top: 16px;
-   transition: 0.5s ease-in;
+    background:crimson;
+    border-radius: 30px;
 
 }
-#facebook:hover
-{   cursor: copy;
-    transition: 0.5s ease-in;
-    transform: rotate(360deg);
-    filter:drop-shadow(0px 0px 7px white);
+li 
+{
+    padding: 19px 35px;
+    font-size: 22px;
+    font-weight: bold;
+    color: brown;
+    font-family:Sitka Display;
 }
-#insta
+li a
+{
+    text-decoration: none;
+    color:brown;
+}
+li a:hover
+{
+    color: brown;
+}
+#logo
+{
+    margin-top: -8.5%;
+    margin-left: 4%;
+    width: 190px;
+}
+marquee
 {
     position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 559px;
-   top: 16px;
-   transition: 0.5s ease-in;
+    top: 664px;
+    left: 10px;
+    font-size: 23px;
+    letter-spacing: 12px;
+    font-family:'Gabriola';
+    font-weight: bold;
+    color:crimson;
 }
-#insta:hover
-{   cursor: copy;
-    transition: 0.5s ease-in;
-    transform: rotate(360deg);
-    filter:drop-shadow(0px 0px 7px white);
-}
-#youtube
+#slide
 {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 599px;
-   top: 16px;
-   transition: 0.5s ease-in;
-}
-#youtube:hover
-{   cursor: copy;
-    transition: 0.5s ease-in;
-    transform: rotate(360deg);
-    filter:drop-shadow(0px 0px 7px white);
+    
+    margin-top: 0.1%;
+    width: 1240px;
+    height: 590px;
+    margin-left: 65px;
+    border-radius: 15px;
+    z-index: -1;
 }
 h1
 {
     position: absolute;
-    left: 648px;
-    top: 9px;
-    font-weight: bold;
-    color:darkorange;
-    font-size: 18px;
-    letter-spacing: 1px;
-    transition: 0.5s ease-in;
-}
-h1:hover
-{
-    transition: 0.5s ease-in;
-cursor: pointer;
-color: white;
-opacity: 2;
-}
-h4
-{
-    position: absolute;
-    left: 754px;
-    top: -2px;
-    color:darkorange;
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: 1px;
-    transition: 0.5s ease-in;
-}
-h4:hover
-{
-cursor: pointer;
-color: white;
-opacity: 2;
-transition: 0.5s ease-in;
-}
-h5
-{
-    position: absolute;
-    left: 887px;
-    top: -7px;
-    font-weight: bold;
-    color:darkorange;
-    font-size: 18px;
-    letter-spacing: 1px;
-    transition: 0.5s ease-in;
-}
-h5:hover
-{
-    transition: 0.5s ease-in;
-cursor: pointer;
-color:white;
-opacity: 2;
-}
-
-#logo
-{
-    position: absolute;
-    width: 150px;
-    height:150px;
-    left: -3px;
-   top: 65px;
-   cursor: copy;
-   transition: 0.9s ease-in;
-}
-#logo:hover
-{
-    transition: 0.9s ease-in;
-    filter:drop-shadow(0px 0px 7px hotpink);
-}
-#Welcome
-{
-    position: absolute;
-    color:#07294E;
-    left: 152px;
-    text-transform: uppercase;
-    font-size: 33px;
-    font-weight: bold;
-   top: 99px;
-   cursor: copy;
-}
-#bhar
-{
-    position: absolute;
-    width: 110px;
-    height:110px;
-    left: 810px;
-   top: 88px;
-   cursor: copy;
-   transition: 0.9s ease-in;
-}
-#bhar:hover
-{
-    transition: 0.9s ease-in;
-    filter:drop-shadow(0px 0px 7px orange);
-}
-#web
-{
-    position: absolute;
-    width: 90px;
-    height:90px;
-    left: 916px;
-   top: 91px;
-   cursor: copy;
-   transition: 0.9s ease-in;
-}
-#web:hover
-{
-    transition: 0.9s ease-in;
-   
-}
-.box2
-{
-    position: absolute;
-    background: skyblue;
-    width: 999px;
-    height: 110px;
-    box-shadow:0px 0px 40px #07294E, inset -10px -10px 10px whitesmoke,inset 10px 10px 10px whitesmoke;
-    top: 210px;
-    left: 5px;
-}
-
-ul
-{
-    display: flex;
-    position: absolute;
-    top:35px;
-    left: -35px;
-    color: #07294E;
-    font-weight: bold;
-}
-ul li
-{
-   
-    cursor: pointer;
-    list-style-type: none;
-    padding: 0px 14.5px;
-    font-size: 17px;
-    transition: 0.3s ease-in;
-}
-ul li a
-{
-    color:#07294E;
-    text-decoration: none;
-}
-ul li a:hover
-{
-    transition: 0.3s ease-in;
     color: white;
+    top: 150px;
+    left: 180px;
+    font-size: 55px;
+    font-family: Gabriola;
 }
-ul li:active
-{
-    color: tomato;
-}
-#home a:hover
-{ 
-    color: white;
-
-}
-.box3
-{
-   width: 140vmin;
-   height: 420px;
-   position: absolute;
-   transform: translate(-50%,-50%);
-   top: 560px;
-   left: 50%;
-   border-radius: 50px;
-   overflow: hidden;
-   border: 2px solid floralwhite;
-
-}
-.wrapper
-{
-    width: 1200px;
-    height: 1200px;
-    display: flex;
-    animation: slide 16s infinite;
-}
-@keyframes slide
-{
-    0%
-    {
-        transform: translateX(0);
-    }
-    25%
-    {
-        transform: translateX(0);
-    }
-    30%
-    {
-        transform: translateX(-89%);
-    }
-    50%
-    {
-        transform: translateX(-89%);
-    }
-    55%
-    {
-        transform: translateX(-180%);
-    }
-    60%
-    {
-        transform: translateX(-180%);
-    }
-    65%
-    {
-        transform: translateX(-270%);
-    }
-    75%
-    {
-        
-       transform: translateX(-360%);
-    }
-  
-
-}
-#one
-{ 
-    width: 1080px;
-    height: 580px;
-}
-.box4
-{
-    position: absolute;
-    width: 970px;
-    height: 450px;
-    background: #07294E;
-    top: 850px;
-    border-radius: 20px;
-    left: 25px;
-    transition: 0.9s ease-in;
-}
-.box4:hover
-{
-    transition: 0.9s ease-in;
-
-}
-#ksg
+p
 {
     position: absolute;
     color: white;
-    font-size: 35px;
-    top: 40px;
-    cursor:default;
-    left: 50px;
-    font-family: cooper;
+    top: 290px;
+    left: 180px;
+    font-size: 20px;
+    font-family: Gabriola;
 }
-#ksg:hover
+#pre
 {
-    color: crimson;
+    margin-top: 550px;
 }
-#para
+#next
 {
-    position: absolute;
-    color: white;
-   font-size: 25px;
-    top: 140px;
-    cursor: default;
-    width: 250px;
+    position: relative;
+    left: 978px;
+    top: 275px;
 }
 button
 {
     position: absolute;
-    top: 360px;
-    font-size: 15px;
-    font-family: Perpetua Titling MT;
-    height: 50px;
-    font-weight: bold;
-    width: 290px;
-    border-radius: 10px;
-    background: orange;
-    left: 55px;
-    cursor: pointer;
-    transition: 1s ease-in;
-}
-button:hover
-{
-    transition: 1s ease-in;
-    box-shadow: inset -145px 0px 10px lightskyblue,inset 145px 0px 10px lightskyblue;
-}
-
-.box5
-{
-    position: absolute;
-    width: 160px;
-    height: 180px;
-    cursor: pointer;
-    background:lightcoral;
-    border-radius: 10px;
-    top: 999px;
-    left: 410px;
-    transition: 1s ease-in;
-}
-.box5:hover
-{
-    transition: 1s ease-in;
-    box-shadow: inset -85px 0px 10px lightgreen,inset 145px 0px 10px lightskyblue;   
-}
-#bus
-{
-    position: absolute;
-    width: 170px;
-    left: -5px;
-    top: 10px;
-    height: 120px;
-    animation: 4s bus infinite;
-}
-@keyframes bus
-{
-    0%
-    {
-        transform: translateY(-5px);
-    }
-    10%
-    {
-        transform: translateY(-11px);
-    }
-    90%
-    {
-        transform: translateY(5px);
-    }
-    100%
-    {
-        transform: translateY(-5px);
-    }
-}
-#bus1
-{
-    position: absolute;
-    top: 110px;
-    font-size: 20px;
-    left: 30px;
-    letter-spacing: 2px;
-    font-family:Poor Richard ;
-}
-.one
-{
-    position: absolute;
-    left: 170px;
-
-}
-#bus2
-{
-    
-    position: absolute;
+    top: 370px;
+    left: 180px;
+    border-radius: 50px;
+    outline: none;
+    color: blueviolet;
     width: 140px;
-    left: 10px;
-    top: 10px;
-    height: 120px;
-    animation: 4s bus infinite;
+    height: 45px;
+    text-transform: capitalize;
+    font-family: Harrington;
+ 
 }
-#bus3
+button a
 {
-    position: absolute;
-    top: 110px;
-    font-size: 20px;
-    left: 42px;
-    letter-spacing: 2px;
-    font-family:Poor Richard ;
-}
-.box6
-{
-    position: absolute;
-    width: 160px;
-    height: 180px;
-    background:tomato;
-    cursor: pointer;
-    border-radius: 10px;
-    top: 999px;
-    left: 440px;
-    transition: 1s ease-in;
-}
-.box6:hover
-{
-    transition: 1s ease-in;
-    box-shadow: inset -85px 0px 10px lightcoral,inset 145px 0px 10px limegreen;   
-}
-.two
-{
-    position: absolute;
-    left: 370px;
-}
-#bus6
-{
-    position: absolute;
-    top: 110px;
-    font-size: 20px;
-    left: 36px;
-    letter-spacing: 2px;
-    font-family:Poor Richard ;
-}
-.box8
-{
-    position: absolute;
-    width: 160px;
-    height: 180px;
-    background:lightseagreen;
-    border-radius: 10px;
-    cursor: pointer;
-    top: 999px;
-    left: 440px;
-    transition: 1s ease-in;
-}
-.box8:hover
-{
-    transition: 1s ease-in;
-    box-shadow: inset -85px 0px 10px lightsalmon,inset 145px 0px 10px lightgreen;   
-}
-.box9
-{
-    position: absolute;
-}
-#Student
-{
-    position: absolute;
-    top: 1400px;
-    width: 500px;
-    height: 610px;
-    left: 490px;
-    transition: 0.4s ease-in;
-}
-#Student:hover
-{
-    transition: 0.4s ease-in;
-    filter: drop-shadow(0px 0px 10px black);
-}
-#about
-{
-    position: absolute;
-    color: #07294E;
-    font-weight: 900;
-    font-family: Rockwell;
-    opacity: 1;
-    font-size: 22px;
-    width: 200px;
-    top: 1400px;
-    left: 40px;
-    cursor: default;
-}
-#line
-{
-    position: absolute;
-    width: 70px;
-    height: 5px;
-    background: transparent;
-    top: 1440px;
-    left: 50px;
-    cursor: default;
-    animation: 3s bar infinite; 
-}
-#about:hover
-{
-    color:firebrick;
-}
-@keyframes bar
-{
-  
-    0%
-    {
-        background:orange;
-        transform: translateX(0px);
-    }
-    10%
-    {
-        background:orange;
-        transform: translateX(-8px);
-    }
-    100%
-    {
-        background:orange;
-        transform: translateX(4px);
-    }
-}
-#wel
-{
-    position: absolute;
-    width: 370px;
-    color: #07294E;
-    font-weight: bold;
-    font-family:  Rockwell;
-    font-size: 40px;
-    top: 1450px;
-    left: 35px;
-    cursor: default;
-}
-#wel:hover
-{
-    color:crimson;
-}
-#abouts
-{
-    position: absolute;
-    color: black;
-    font-weight: 500;
-    font-family: Sitka Heading;
-    opacity: 1;
-    cursor: default;
-    letter-spacing: 2px;
-    width: 400px;
-    top: 1580px;
-    left: 40px;
-}
-#icon
-{
-    position: absolute;
-    width: 57px;
-    height: 55px;
-    left: 950px;
-   top: 1px;
-   cursor: copy;
-   transition: 0.9s ease-in;
-}
-#learn
-{
-    position: absolute;
-    top: 1950px;
-    width: 160px;
-    left: 40px;
-}
-.box10
-{
-    position: absolute;
-    width: 440px;
-    height: 300px;
-    background: #07294E;
-    top: 2110px;
-    border-radius: 20px;
-    left: 25px;
-}
-#port
-{
-    position: absolute;
-    top: 5px;
-    font-size: 35px;
-    cursor: default;
-    font-family:Bookman Old Style ;
-    left: 40px;
-    color: white;
-    transition: 0.6s ease-in;
-}
-#port:hover
-{
-    transition: 0.6s ease-in;
-    color: crimson;
-}
-#Login
-{
-    position: absolute;
-    top: 70px;
-    font-size: 18px;
-    opacity: 1;
-    cursor: default;
-    width: 330px;
-    font-family:Bookman Old Style ;
-    left: 40px;
-    color: white;
+    text-decoration: none;
+    color: blueviolet;
 }
 #log
 {
-    position: absolute;
-    top: 220px;
-    
-    width: 150px;
-    left: 40px;
-}
-.three
-{
-    position: absolute;
-    left: 500px;
-}
-#Logins
-{
-    position: absolute;
-    top: 70px;
-    font-size: 18px;
-    opacity: 1;
-    cursor: default;
-    width: 380px;
-    font-family:Bookman Old Style ;
-    left: 40px;
-    color: white;
-}
-#logs
-{
-    
-    position: absolute;
-    top: 220px;
-    width: 150px;
-    left: 40px;
-   
-}
-.box11
-{
-    position: absolute;
-    width: 947px;
-    height: 670px;
-    background: #07294E;
-    top: 2480px;
-    border-radius: 20px;
-    left: 25px;
-}
-#acad
-{
-    position: absolute;
-    width: 800px;
-    top: 70px;
-    left: 72px;
-    height: 550px;
-    transition: 0.3s ease-in;
+    margin-top: -358px;
+    margin-left: 1040px;
+    z-index: 2;
+    width: 60px;
+    height: 40px;
+    color: red;
+    cursor: url("./Help\ Select.cur");
+    font-family: cursive;
     border-radius: 10px;
 }
-#acad:hover
-{
-    transition: 0.3s ease-in;
-    box-shadow: 0px 0px 50px skyblue;
-}
-.box12
-{
-    position: absolute;
-}
-#campus
-{
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 3250px;
-    left: 30px;
-    border-radius: 20px;
-    transition: 0.3s ease-in;
-}
-#campus:hover
-{
-    transform: rotate(1deg);
-    transition: 0.3s ease-in;
-    box-shadow: 0px 0px 50px tomato;
-}
-.box13
-{
-    position: absolute;
-    width: 507px;
-    height: 400px;
-    background: #07294E;
-    top: 3250px;
-    border-radius: 20px;
-    left: 465px;
-    transition: 0.3s ease-in;
-}
-.box13:hover
-{
-    transition: 0.3s ease-in;
-    box-shadow: 0px 0px 50px teal;
-}
-#life
-{
-    position: absolute;
-    top: -2px;
-    color: #fff;
-    font-size: 35px;
-    font-family:Cooper ;
-    left: 45px;
-}
-#life:hover
-{
-    color: crimson;
-}
-#cert
-{
-    position: absolute;
-    width: 80px;
-    height: 110px;
-    top: 98px;
-    cursor: default;
-    left: 45px;
-    transition: 1s ease-in;
-}
-#cert:hover
-{
-    transition: 1s ease-in;
-    transform: translateY(-10px);
-    filter: drop-shadow(0px 0px 10px white);
-}
-#global
-{
-    position: absolute;
-    color: white;
-    cursor: default;
-    top: 75px;
-    opacity: 1;
-    font-size: 25px;
-    font-family:cooper ;
-    font-weight: bold;
-    left: 180px;
-}
-#place
-{
-    position: absolute;
-    color: white;
-    top: 110px;
-    left:180px;
-    cursor: default;
-    font-weight: bold;
-}
-#ment
-{
 
-    position: absolute;
-    width: 90px;
-    height: 155px;
-    top: 248px;
-    left: 45px;
-    cursor: default;
-    transition: 1s ease-in;
-}
-#ment:hover
-{
-    transition: 1s ease-in;
-    transform: translateY(-10px);
-    filter: drop-shadow(0px 0px 3px white);
-}
-#ments
-{
-
-    position: absolute;
-    color: white;
-    top: 248px;
-    opacity: 1;
-    font-size: 25px;
-    cursor: default;
-    font-family:cooper ;
-    font-weight: bold;
-    left: 180px;
-}
-#pla
+#shop
 {
     position: absolute;
-    color: white;
-    top: 290px;
-    left:180px;
-    width: 300px;
-    cursor: default;
-    font-weight: bold;
+    width: 65px;
+    top: -5px;
+    left: 1130px;
+    cursor: pointer;
 }
-.box14
+#home
 {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    background: transparent;
-    top: 3750px;
-    left: 440px;
-    box-shadow: 0px 0px 2px crimson;
-    border-radius: 20px;
+    cursor: pointer;
 }
-#aft
+h2::before
 {
-    transition: 1s ease-in-out;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-
-  
-}
-#aft:hover
-{
-    transition: 1s ease-in-out;
-   transform: scale(1.1);
-}
-#anual
-{
+    content: "";
     position: absolute;
-    width: 210px;
-    font-size: 12px;
-    top: 200px;
-    left: 20px;
-    height: 40px;
     background: white;
-}
-#anual:hover
-{
-    color:red;
-}
-.four
-{
-    position: absolute;
-    left: 280px;
-}
-.five
-{
-    position:absolute;
-    top: 290px;
-}
-.six
-{
-    position: absolute;
-    top: 299px;
-    left: 280px;
-}
-.box15
-{
-    position: absolute;
-}
-#cas
-{
-    position: absolute;
-    top: 3720px;
-    font-size: 19px;
-    width: 100px;
-    color: #07294E;
-    font-weight: bold;
-    font-family: cooper;
-    left: 40px;
-}
-#bars
-{
-    position: absolute;
-    width: 70px;
-    height: 5px;
-    background: orange;
-    top: 3745px;
-    left: 50px;
-    cursor: default;
-    animation: 3s bars infinite; 
-}
-@keyframes bars
-{
-  
-    0%
-    {
-        background:orange;
-        transform: translateX(0px);
-    }
-    10%
-    {
-        background:orange;
-        transform: translateX(-8px);
-    }
-    100%
-    {
-        background:orange;
-        transform: translateX(4px);
-    }
-}
-#event
-{
-    position: absolute;
-    top: 3720px;
-    opacity: 1;
-    font-size: 55px;
-    left: 30px;
-    color: black;
     width: 450px;
-}
-#event:hover
-{
-    color: crimson;
-}
-#digit
-{
-    position: absolute;
-    color: black;
-    top: 3840px;
-    cursor: default;
-    left: 30px;
-    width: 320px;
-}
-.box16
-{
-    position: absolute;
-}
-#our
-{
-    position: absolute;
-    top: -10px;
-    color: #07294E;
-    cursor: default;
-    top: 4400px;
-    width: 800px;
-    font-size: 50px;
-    left: 207px;
-}
+    top: 50px;
+    height: 3px;
+   opacity: 0;
+   transition: 1s ease-in;
 
-
-#a
+}
+h2:hover::before
 {
-   position: relative;
- padding-top: 50px;
- padding-left: 20px;
-    top: 4260px;
-    left: 40px;
-    width: 150px;
-    height: 90px;
     transition: 1s ease-in;
-}
-#a:hover
-{
-    filter: drop-shadow(0px 0px 2px black);
-    transition: 1s ease-in;
-    transform: scale(1.1);
-}
-.box18
-{
-    position: absolute;
-    width: 980px;
-    height: 500px;
-    background: #07294E;
-    top: 4900px;
-    border-radius: 20px;
-    left: 25px;
-}
-#pad
-{
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    width: 100px;
-    height: 100px;
-}
-#pad:hover
-{
-  filter: drop-shadow(0px 0px 20px black);
-}
-#col
-{
-    position: absolute;
-    top: 49px;
-    opacity: 1;
-    cursor: default;
-    font-size: 30px;
-    left: 140px;
-    transition: 0.5s ease-in;
-}
-#col:hover
-{
-    transition: 0.5s ease-in;
-    color: crimson;
-}
-#the
-{
-    position: absolute;
-    top: 130px;
-    left: 53px;
-    cursor: default;
-    font-weight: bold;
-    width: 200px;
-}
-#b1
-{
-    position: absolute;
-    width: 35px;
-    top: 340px;
-    left: 48px;
-    height: 40px;
-    cursor: pointer;
-}
-#b1:hover
-{
-    filter: drop-shadow(0px 0px 10px lightskyblue);
-}
-#b2
-{
-    position: absolute;
-    width: 35px;
-    top: 340px;
-    left: 90px;
-    height: 40px;
-    cursor: pointer;
-}
-#b2:hover
-{
-    filter: drop-shadow(0px 0px 10px skyblue);
-}
-#b3
-{
-    position: absolute;
-    width: 30px;
-    top: 340px;
-    left: 133px;
-    height: 40px;
-    cursor: pointer;
-}
-#b3:hover
-{
-    filter: drop-shadow(0px 0px 10px lightgreen);
-}
-#b4
-{
-    position: absolute;
-    width: 35px;
-    top: 340px;
-    left: 170px;
-    height: 40px;
-    cursor: pointer;
-}
-#b4:hover
-{
-    filter: drop-shadow(0px 0px 10px hotpink);
-}
- .box19
- {
-    position: absolute;
- }
-#u1
-{
-    position: absolute;
-    top: 5020px;
-    left: 380px;
-    z-index: 1;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: repeat(2,100px);
-    color: white;
-    column-gap: 25px;
-}
-#u1 #l1
-{
-   padding-top: 20px; 
-}
-#u1 #l1:hover
-{
-    transform: translateX(5px);
-    color: white;
-}
-.fa-solid
-{
-    position: absolute;
-    color: gold;
-    top: 23px;
-    font-size: 14px;
-    left: 38px;
-}
-#f1
-{
-    position: absolute;
-    color: gold;
-    top: 63px;
-    font-size: 14px;
-    left: 38px;
-}
-#f2
-{
-    position: absolute;
-    color: gold;
-    top: 103px;
-    font-size: 14px;
-    left: 38px;
-}
-#f4
-{
-    position: absolute;
-    color: gold;
-    top: 143px;
-    font-size: 14px;
-    left: 38px;
-}
-#f5
-{
-    position: absolute;
-    color: gold;
-    top: 183px;
-    font-size: 14px;
-    left: 38px;
-}
-#f6
-{
-    position: absolute;
-    color: gold;
-    top: 23px;
-    font-size: 14px;
-    left: 166px;
-}
-#f7
-{
-    position: absolute;
-    color: gold;
-    top: 63px;
-    font-size: 14px;
-    left: 166px;
-}
-#f8
-{
-    position: absolute;
-    color: gold;
-    top: 103px;
-    font-size: 14px;
-    left: 166px;
-}
-#f9
-{
-    position: absolute;
-    color: gold;
-    top: 143px;
-    font-size: 14px;
-    left: 166px;
-}
-#f10
-{
-    position: absolute;
-    color: gold;
-    top: 183px;
-    font-size: 14px;
-    left: 166px;
-}
-#site
-{
-    position: absolute;
-    top: 4980px;
-    left: 465px;
-    font-size: 25px;
-    color: #fff;
-    cursor: default;
-    font-family: cooper;
-}
-#site:hover
-{
-    color: crimson;
-}
-#u1 #l1 a
-{
-    text-decoration: none;
-    color: #fff;
-}
-#u1 #l1 a:active
-{
-    transition: 0.2s;
-    color:crimson;
-}
-#u2
-{
-    position: absolute;
-    list-style: none;
-    top: 5025px;
-    display: block;
-    color: white;
-    left: 640px;
-}
-#u2 #l2
-{
-   padding-top: 20px;
-}
-#u2 #l2:active
-{
-    transition: 0.1s;
-    color: crimson;
-}
-#n1
-{
-    position: absolute;
-    color: gold;
-    top: 22px;
-    font-size: 14px;
-    left: 39px;
-}
-#n2
-{
-    position: absolute;
-    color: gold;
-    top: 63px;
-    font-size: 14px;
-    left: 39px;
-}
-#n3
-{
-    position: absolute;
-    color: gold;
-    top: 103px;
-    font-size: 14px;
-    left: 39px;
-}
-#n4
-{
-    position: absolute;
-    color: gold;
-    top: 143px;
-    font-size: 14px;
-    left: 39px;
-}
-#n5
-{
-    position: absolute;
-    color: gold;
-    top: 183px;
-    font-size: 14px;
-    left: 39px;
-}
-#u2 #l2:hover
-{
-    transform: translateX(5px);
-}
-#act
-{
-    position: absolute;
-    top: 4980px;
-    color: white;
-    left: 660px;
-    font-size: 25px;
-    cursor: default;
-    font-family: cooper;
-}
-#act:hover
-{
-    color: crimson;
-}
-.box21
-{
-    position: absolute;
-}
-#cont
-{
-    position: absolute;
-    top: 4980px;
-    left: 830px;
-    font-size: 25px;
-    cursor: default;
-    font-family: cooper;
-    color: white;
-    width: 150px;
-
-}
-#cont:hover
-{
-    color: crimson;
-}
-#add
-{
-    position: absolute;
-    top: 5040px;
-    left: 836px;
-    font-size: 15px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 150px;
-
-}
-#num
-{
-    position: absolute;
-    top: 5133px;
-    left: 838px;
-    font-size: 15px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 150px;
-}
-#num2
-{
-    position: absolute;
-    top: 5198px;
-    left: 838px;
-    font-size: 15px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 150px;
-}
-#num3
-{
-    position: absolute;
-    top: 5258px;
-    left: 838px;
-    font-size: 15px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 150px;
-}
-#num4
-{
-    position: absolute;
-    top: 5316px;
-    left: 838px;
-    font-size: 17px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 150px;
-}
-#s1
-{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    z-index: 1;
-    top: 5058px;
-    left: 810px;
-}
-#s2
-{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    z-index: 1;
-    top: 5145px;
-    left: 810px;
-}
-#s3
-{
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    z-index: 1;
-    top: 5208px;
-    left: 808px;
-}
-#s4
-{
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    z-index: 1;
-    top: 5268px;
-    left: 808px;
-}
-#s5
-{
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    z-index: 1;
-    top: 5330px;
-    left: 808px;
-}
-
-
-
-@media(max-width:320px)
-{
-    .box
-    {
-        display: flex;
-        flex-wrap: wrap;
-        position: fixed;
-        z-index: 2;
-        background: #07294E;
-        width: 827px;
-        height: 60px;
-      
-    }
-    #email
-{
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    left: 5px;
-   top: 15px;
-   cursor: copy;
-   transition: 0.5s ease-in;
-}
-p
-{
-    position: absolute;
-    left: 33px;
-    top: 4px;
-    color: #fff;
-    opacity: 0.8;
-    font-size: 15px;
-}
-#call
-{
-    position: absolute;
-    width: 20px;
-    height: 24px;
-    left: 198px;
-   top: 16px;
+    transform: translateX(15px);
+    opacity: 2;
+    background:white;
+    border-radius: 30px;
 
 }
 h2
 {
     position: absolute;
-    left: 218px;
-    top: 10px;
-    color: #fff;
-    opacity: 0.8;
-    font-size: 14px;
-}
-h3
-{
-    position: absolute;
-    left: 326px;
-    top: 6px;
-    color: #fff;
-    opacity: 0.8;
-    font-size: 15px;
-}
-#facebook
-{
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 398px;
-   top: 16px;
-   transition: 0.5s ease-in;
-
-}
-#insta
-{
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 439px;
-   top: 16px;
-   transition: 0.5s ease-in;
-}
-
-#youtube
-{
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 479px;
-   top: 16px;
-   transition: 0.5s ease-in;
-}
-h1
-{
-    position: absolute;
-    left: 517px;
-    top: 10px;
+    top: 670px;
+    left: 470px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
     font-weight: bold;
-    color:darkorange;
-    font-size: 18px;
-    letter-spacing: 1px;
-    transition: 0.5s ease-in;
+    font-size: 35px;
+    z-index: 3;
+    color: black;
+
+}
+
+#man
+{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 750px;
+    left: 73px;
+    border-radius: 10px;
+}
+#bake
+{
+    position: absolute;
+    top: 765px;
+    left: 380px;
+    font-size: 33px;
+    width: 940px;
+    color: black;
+}
+h4::before
+{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 450px;
+    top: 50px;
+    height: 3px;
+   opacity: 0;
+   transition: 1s ease-in;
+
+}
+h4:hover::before
+{
+    transition: 1s ease-in;
+    transform: translateX(15px);
+    opacity: 2;
+    background:white;
+    border-radius: 30px;
+
 }
 h4
 {
     position: absolute;
-    left: 629px;
-    top: -1px;
-    color:darkorange;
+    color: black;
+    top: 1130px;
+    left: 470px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
     font-weight: bold;
-    font-size: 18px;
-    letter-spacing: 1px;
-    transition: 0.5s ease-in;
 }
-#logo
+.blog
 {
     position: absolute;
-    width: 110px;
-    height:110px;
-    left: -3px;
-   top: 92px;
-   cursor: copy;
-   transition: 0.9s ease-in;
+    top: 1240px;
+    height: 600px;
+    width: 1320px;
+    left: 5px;
 }
+h5::before
+{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 450px;
+    top: 50px;
+    height: 3px;
+   opacity: 0;
+   transition: 1s ease-in;
 
-#Welcome
+}
+h5:hover::before
+{
+    transition: 1s ease-in;
+    transform: translateX(15px);
+    opacity: 2;
+    background:white;
+    border-radius: 30px;
+
+}
+h5
 {
     position: absolute;
-    color:#07294E;
-    left: 112px;
-    text-transform: uppercase;
-    font-size: 23px;
+    color: black;
+    top: 1930px;
+    left: 470px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
     font-weight: bold;
-   top: 119px;
-   cursor: copy;
 }
-#bhar
+#slides
 {
-    position: absolute;
-    width: 110px;
-    height:110px;
-    left: 580px;
-   top: 93px;
-   cursor: copy;
-   transition: 0.9s ease-in;
-}
-#web
-{
-    position: absolute;
-    width: 90px;
-    height:90px;
-    left: 686px;
-   top: 91px;
-   cursor: copy;
-   transition: 0.9s ease-in;
+   margin-top: 2000px;
+   margin-left: 200px;
+   width: 300px;
+   height: 300px;
+   top: 2100px;
+   z-index: 3;
 }
 .box2
 {
-    position: absolute;
-    background: skyblue;
-    width: 770px;
-    height: 110px;
-    box-shadow:0px 0px 40px #07294E, inset -10px -10px 10px whitesmoke,inset 10px 10px 10px whitesmoke;
-    top: 210px;
-    left: 5px;
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background: transparent;
+    top: 1470px;
+    overflow: hidden;
 }
-ul li
+#title
 {
-   
+     position: absolute;
+     color: black;
+     left: 10px;
+     top: 269px;
+     font-size: 17px;
+     font-family: "Trirong";
+}
+.back
+{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    margin-top: -530px;
+    margin-left: 1297px;
+    z-index: 6;
     cursor: pointer;
-    list-style-type: none;
-    padding: 0px 1.5px;
-    font-size: 17px;
-    transition: 0.3s ease-in;
+}
+#go
+{
+    position: absolute;
+    top: 380px;
+    left:7px;
+}
+#butter
+{
+    position: absolute;
+    color: black;
+    z-index: 5;
 }
 .box3
 {
-   width: 140vmin;
-   height: 420px;
-   position: absolute;
-   transform: translate(-50%,-50%);
-   top: 560px;
-   left: 60%;
-   border-radius: 50px;
-   overflow: hidden;
-   border: 2px solid floralwhite;
+    position: absolute;
+    left: 500px;
+    top: 2132px;
 }
 .box4
 {
     position: absolute;
-    width: 770px;
-    height: 450px;
-    background: #07294E;
-    top: 850px;
-    border-radius: 20px;
-    left: -5px;
-    transition: 0.9s ease-in;
-}
-#para
-{
-    position: absolute;
-    color: white;
-   font-size: 20px;
-    top: 140px;
-    cursor: default;
-    width: 230px;
+    left: 979px;
+    top: 2132px;
 }
 .box5
 {
     position: absolute;
-    width: 160px;
-    height: 180px;
-    cursor: pointer;
-    background:lightcoral;
-    border-radius: 10px;
-    top: 999px;
-    left: 253px;
-    transition: 1s ease-in;
-}
-
-#bus
-{
-    position: absolute;
-    width: 170px;
-    left: -5px;
-    top: 10px;
-    height: 120px;
-    animation: 4s bus infinite;
-}
-@keyframes bus
-{
-    0%
-    {
-        transform: translateY(-5px);
-    }
-    10%
-    {
-        transform: translateY(-11px);
-    }
-    90%
-    {
-        transform: translateY(5px);
-    }
-    100%
-    {
-        transform: translateY(-5px);
-    }
-}
-#bus1
-{
-    position: absolute;
-    top: 110px;
-    font-size: 20px;
-    left: 30px;
-    letter-spacing: 2px;
-    font-family:Poor Richard ;
+    top: 2827px;
+    left:18px;
 }
 .one
 {
     position: absolute;
-    left: 170px;
-
-}
-#bus2
-{
-    
-    position: absolute;
-    width: 140px;
-    left: 10px;
-    top: 10px;
-    height: 120px;
-    animation: 4s bus infinite;
-}
-#bus3
-{
-    position: absolute;
-    top: 110px;
-    font-size: 20px;
-    left: 42px;
-    letter-spacing: 2px;
-    font-family:Poor Richard ;
-}
-.box6
-{
-    position: absolute;
-    width: 160px;
-    height: 180px;
-    background:tomato;
-    cursor: pointer;
-    border-radius: 10px;
-    top: 999px;
-    left: 258px;
-    transition: 1s ease-in;
-}
-.box6:hover
-{
-    transition: 1s ease-in;
-    box-shadow: inset -85px 0px 10px lightcoral,inset 145px 0px 10px limegreen;   
+    top: 0px;
+    left:465px;
 }
 .two
 {
     position: absolute;
-    left: 370px;
+    left: 500px;
+    top: 1px;
 }
-#bus6
-{
-    position: absolute;
-    top: 110px;
-    font-size: 20px;
-    left: 36px;
-    letter-spacing: 2px;
-    font-family:Poor Richard ;
-}
-.box8
-{
-    position: absolute;
-    width: 160px;
-    height: 180px;
-    background:lightseagreen;
-    border-radius: 10px;
-    cursor: pointer;
-    top: 999px;
-    left: 230px;
-    transition: 1s ease-in;
-}
-.box8:hover
-{
-    transition: 1s ease-in;
-    box-shadow: inset -85px 0px 10px lightsalmon,inset 145px 0px 10px lightgreen;   
-}
-#Student
-{
-    position: absolute;
-    top: 1400px;
-    width: 300px;
-    height: 610px;
-    left: 490px;
-    transition: 0.4s ease-in;
-}
-#Student:hover
-{
-    transition: 0.4s ease-in;
-    filter: drop-shadow(0px 0px 10px black);
-}
-.box10
-{
-    position: absolute;
-    width: 340px;
-    height: 300px;
-    background: #07294E;
-    top: 2110px;
-    border-radius: 20px;
-    left: 25px;
-}
-#Login
-{
-    position: absolute;
-    top: 70px;
-    font-size: 18px;
-    opacity: 1;
-    cursor: default;
-    width: 330px;
-    font-family:Bookman Old Style ;
-    left: 10px;
-    color: white;
-}
-.three
-{
-    position: absolute;
-    left: 390px;
-}
-#Logins
-{
-    position: absolute;
-    top: 70px;
-    font-size: 18px;
-    opacity: 1;
-    cursor: default;
-    width: 380px;
-    font-family:Bookman Old Style ;
-    left: 10px;
-    color: white;
-}
-.box11
-{
-    position: absolute;
-    width: 747px;
-    height: 670px;
-    background: #07294E;
-    top: 2480px;
-    border-radius: 20px;
-    left: 25px;
-}
-#acad
-{
-    position: absolute;
-    width: 600px;
-    top: 70px;
-    left: 72px;
-    height: 550px;
-    transition: 0.3s ease-in;
-    border-radius: 10px;
-}
-#acad:hover
-{
-    transition: 0.3s ease-in;
-    box-shadow: 0px 0px 50px skyblue;
-}
-#campus
-{
-    position: absolute;
-    width: 280px;
-    height: 280px;
-    top: 3250px;
-    left: 30px;
-    border-radius: 20px;
-    transition: 0.3s ease-in;
-}
-#campus:hover
-{
-    transform: rotate(1deg);
-    transition: 0.3s ease-in;
-    box-shadow: 0px 0px 50px tomato;
-}
-.box13
-{
-    position: absolute;
-    width: 427px;
-    height: 400px;
-    background: #07294E;
-    top: 3250px;
-    border-radius: 20px;
-    left: 345px;
-    transition: 0.3s ease-in;
-}
-.box13:hover
-{
-    transition: 0.3s ease-in;
-    box-shadow: 0px 0px 50px teal;
-}
-.box14
+.box6
 {
     position: relative;
-    width: 250px;
-    height: 250px;
-    background: transparent;
-    top: 3750px;
-    left: 440px;
-    box-shadow: 0px 0px 0px ;
-    border-radius: 20px;
 }
-#aft
+h4::before
 {
-    transition: 1s ease-in-out;
-    width: 180px;
-    height: 180px;
-    border-radius: 20px;
-    margin-left: -60px;
-
-  
-}
-#aft:hover
-{
-    transition: 1s ease-in-out;
-   transform: scale(1.1);
-}
-#anual
-{
+    content: "";
     position: absolute;
-    width: 160px;
-    font-size: 12px;
-    top: 200px;
-    left: -60px;
-    height: 40px;
     background: white;
+    width: 450px;
+    top: 50px;
+    height: 3px;
+   opacity: 0;
+   transition: 1s ease-in;
+
 }
-#anual:hover
+h4:hover::before
 {
-    color:red;
+    transition: 1s ease-in;
+    transform: translateX(15px);
+    opacity: 2;
+    background:crimson;
+    border-radius: 30px;
+
 }
-.four
+.video
 {
     position: absolute;
-    left: 210px;
+    top:150px;
+    left: 30px;
+    color: black;
 }
-.five
+.make
 {
-    position:absolute;
+    
+    width: 400px;
+    height: 366px;
+    margin-top: 290px;
+    margin-left: -460px;
+}
+.makes
+{
+    position: absolute;
     top: 290px;
-}
-.six
-{
-    position: absolute;
-    top: 299px;
-    left: 210px;
-}
-#our
-{
-    position: absolute;
-    top: -10px;
-    color: #07294E;
-    cursor: default;
-    top: 4400px;
-    width: 800px;
-    font-size: 50px;
-    left: 107px;
-}
-#a
-{
-   position: relative;
- padding-top: 50px;
- padding-left: 10px;
-    top: 4260px;
-    left: 140px;
-    width: 160px;
-    height: 90px;
-    transition: 1s ease-in;
-}
-#a:hover
-{
-    filter: drop-shadow(0px 0px 2px black);
-    transition: 1s ease-in;
-    transform: scale(1.1);
-}
-.box18
-{
-    position: absolute;
-    width: 790px;
-    height: 620px;
-    background: #07294E;
-    top: 5000px;
-    border-radius: 20px;
-    left: 25px;
-}
-.fa-solid
-{
-    position: absolute;
-    color: gold;
-    top: 23px;
-    font-size: 14px;
     left: 30px;
+    width: 760px;
+    font-size: 32px;
+    color: black;
 }
-#f1
+.box7
+{
+    position: relative;
+    top: 290px;
+    left: -80px;
+    width: 600px;
+    height: 400px;
+    background: lightgrey;
+    border-radius: 50px;
+}
+.Contact
+{
+position: absolute;
+   margin-top:710px;
+    margin-left: -50px;
+    color: black;
+    z-index: 6;
+}
+input
 {
     position: absolute;
-    color: gold;
-    top: 63px;
-    font-size: 14px;
-    left: 30px;
-}
-#f2
-{
-    position: absolute;
-    color: gold;
-    top: 103px;
-    font-size: 14px;
-    left: 30px;
-}
-#f4
-{
-    position: absolute;
-    color: gold;
-    top: 143px;
-    font-size: 14px;
-    left: 30px;
-}
-#f5
-{
-    position: absolute;
-    color: gold;
-    top: 183px;
-    font-size: 14px;
-    left: 30px;
-}
-#f6
-{
-    position: absolute;
-    color: gold;
-    top: 23px;
-    font-size: 14px;
-    left: 155px;
-}
-#f7
-{
-    position: absolute;
-    color: gold;
-    top: 63px;
-    font-size: 14px;
-    left: 155px;
-}
-#f8
-{
-    position: absolute;
-    color: gold;
-    top: 103px;
-    font-size: 14px;
-    left: 155px;
-}
-#f9
-{
-    position: absolute;
-    color: gold;
-    top: 143px;
-    font-size: 14px;
-    left: 155px;
-}
-#f10
-{
-    position: absolute;
-    color: gold;
-    top: 183px;
-    font-size: 14px;
-    left: 155px;
-}
-#act
-{
-    position: absolute;
-    top: 4980px;
-    color: white;
-    left: 620px;
-    font-size: 25px;
-    cursor: default;
-    font-family: cooper;
-}
-#act:hover
-{
-    color: crimson;
-}
-#u2
-{
-    position: absolute;
-    list-style: none;
-    top: 5025px;
-    display: block;
-    color: white;
-    left: 620px;
-}
-#u2 #l2
-{
-   padding-top: 20px;
-}
-#u2 #l2:active
-{
-    transition: 0.1s;
-    color: crimson;
-}
-#n1
-{
-    position: absolute;
-    color: gold;
-    top: 22px;
-    font-size: 14px;
-    left: 30px;
-}
-#n2
-{
-    position: absolute;
-    color: gold;
-    top: 63px;
-    font-size: 14px;
-    left: 30px;
-}
-#n3
-{
-    position: absolute;
-    color: gold;
-    top: 103px;
-    font-size: 14px;
-    left: 30px;
-}
-#n4
-{
-    position: absolute;
-    color: gold;
-    top: 143px;
-    font-size: 14px;
-    left: 30px;
-}
-#n5
-{
-    position: absolute;
-    color: gold;
-    top: 183px;
-    font-size: 14px;
-    left: 30px;
-}
-
-#cont
-{
-    position: absolute;
-    top: 5300px;
-    left: 480px;
-    font-size: 25px;
-    cursor: default;
-    font-family: cooper;
-    color: white;
-    width: 150px;
-
-}
-#cont:hover
-{
-    color: crimson;
-}
-
-#s1
-{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    z-index: 1;
-    top: 5358px;
-    left: 450px;
-}
-#s2
-{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    z-index: 1;
-    top: 5410px;
-    left: 450px;
-}
-#s3
-{
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    z-index: 1;
-    top: 5458px;
-    left: 450px;
-}
-#s4
-{
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    z-index: 1;
-    top: 5504px;
-    left: 450px;
-}
-#s5
-{
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    z-index: 1;
-    top: 5560px;
-    left: 450px;
-}
-#add
-{
-    position: absolute;
-    top: 5338px;
-    left: 480px;
-    font-size: 15px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
+    left: 240px;
     width: 230px;
-
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 1px;
 }
-#num
+label
 {
     position: absolute;
-    top: 5398px;
-    left: 480px;
-    font-size: 15px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 230px;
+    left: 150px;
+    margin-top: 70px;
 }
-#num2
+#info
 {
     position: absolute;
-    top: 5448px;
-    left: 480px;
-    font-size: 15px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 230px;
+    left: 250px;
+    top: 340px;
 }
-#num3
+@media screen and (max-width:767px)
 {
-    position: absolute;
-    top: 5490px;
-    left: 480px;
-    font-size: 15px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 150px;
-}
-#num4
-{
-    position: absolute;
-    top: 5546px;
-    left: 480px;
-    font-size: 17px;
-    cursor: default;
-    color: white;
-    font-weight: 500;
-    opacity: 1;
-    width: 150px;
-}
-}
-</style>
-</head>
-<body>
-  <div class="container">
-  <div class="box">
-   <img src="./email_552486.png" id="email" title="Email"  data-bubble="117">
-   <img src="./3247310.png" id="call" title="Call">
-   <img src="./facebook_3670124.png" id="facebook" title="Facebook">
-   <img src="./b4 (2).png" id="insta" title="Instagram">
-   <img src="./youtube.png" id="youtube" title="Youtube">
-   <img src="./Copy1.png" id="icon"> 
-   <p>ksgprincipal@gmail.com</p>
-   <h3>Follow Us</h3>
-   <h2>+91-8148277777</h2>
-   <h1>Staff Login|</h1> 
-   <h4>Student Login|</h4>
-   <h5>Alumni</h5>
-  </div>
-
-  <div class="box10">
-    <audio src="./Mayakkama-Kalakkama-MassTamilan.dev.mp3" id="song">
-
-    </audio>
-  </div>
-  <div class="box1">
-    <img src="./ipad.png" id="logo">
-    <img src="bhar.png" id="bhar">
-    <img src="./Web_.png" id="web">
-    <h1 id="Welcome">KSG COLLEGE OF ARTS AND SCIENCE</h1>
-  </div>
-  <div class="box2">
-    <ul>
-        <li><a href="ksg cas.html">HOME</a></li>
-        <li><a href="ksg cas.html">COLLEGE</a></li>
-        <li><a href="ksg cas.html">COURSE</a></li>
-        <li><a href="ksg cas.html">GALLERY</a></li>
-        <li><a href="ksg cas.html">FACILITIES</a></li>
-        <li><a href="ksg cas.html">CAMPUS</a></li>
-        <li><a href="ksg cas.html">PLACEMENT</a></li>
-        <li><a href="ksg cas.html">SERVICE</a></li>
-        <li><a href="ksg cas.html">PAYMENT</a></li>
-    </ul>
-  </div>
-  <div class="box3">
-   
-    <div class="wrapper">
-
-      <img src="./Web 2.jpeg" id="one">
-        <img src="./Web 1.jpeg" id="one">
-        <img src="./Web 4.jpeg" id="one">
-        <img src="./Web 5.jpeg" id="one">
-        <img src="./Web 6.jpeg" id="one">
-
-    </div>
-  </div>
-  <div class="box4"> 
-    <h1 id="ksg">
-      Why Choose KSG?
-    </h1>
-    <p id="para">
-      A Great career without a great education is only a dream. We are nothing but just helping you to realize a dream
-    </p>
-    <button>
-      Online Admission Open-2023
-    </button>
-  </div>
-  <div class="box5">
-   <img src="./bus.png" id="bus">
-   <h3 id="bus1">
-    Transport&<br>Sholarship
-   </h3>
-  </div>
-  <div class="one">
-    <div class="box6">
-      <img src="./1321086.png" id="bus2">
-      <h3 id="bus3">
-      10000+<br>Graduates
-      </h3>
-     </div>
-  </div>
-  <div class="two">
-    <div class="box8">
-      <img src="./2880849.png" id="bus2">
-      <h3 id="bus6">
-         15+Industry connect
-      </h3>
-     </div>
-  </div>
-  <div class="box9">
-    <img src="./students.png" id="Student">
-    <h3 id="about">
-      About Us
-    </h3>
-    <h1 id="line">
-    </h1>
-    <h1 id="wel">
-     Welcome to KSG College
-    </h1>
-    <p id="abouts">
-      The KSG Educational Trust was started on 4th July 1997 with the sole aim of imparting quality education to all the aspirants of the needy poor category in and around Coimbatore.<br><br><br>  
-      The KSG College of Arts and Science the flagship institution of the KSG Educational Trust was the outcome of the passionate desire of the Managing Trustee Ms. K.S.Gita to give quality education at affordable fees to the downtrodden and needy sections of society.
-    </p>
-    <button id="learn">
-      learn More
-    </button>
-  </div>
-  <div class="box10">
-    <h1 id="port">
-      Student Portal
-    </h1>
-    <p id="Login">
-      Students can login Web Portal and access their details and track each and every activity that takes place in KSG College of Arts And Science.
-    </p>
-    <button id="log">
-      Student Login
-    </button>
-  </div>
-  <div class="three">
-    <div class="box10">
-      <h1 id="port">
-        Staff Login
-      </h1>
-      <p id="Logins">
-        Staffs, Admin, HOD, Transport Admin, etc., can login Staff Portal and add/edit student marks, attendance, post events, see number of students registered for each events, etc., .
-      </p>
-      <button id="logs">
-        Staff Login
-      </button>
-    </div>
-  </div>
-  <div class="box11">
-    <img src="./ksg Academic.jpg" id="acad">
-  </div>
-  <div class="box12">
-    <img src="./ksg_Campus-View.jpg" id="campus">
-  </div>
-  <div class="box13">
-    <h1 id="life">
-      Campus Life @ KSG
-    </h1>
-    <h2 id="global">  
-     Global Certificate
-    </h2>
-    <h2 id="ments">
-     10000+ Placements
-    </h2>
-    <p id="place">
-      Visualize our campus from<br> your place.
-    </p>
-    <p id="pla">
-      We have given the platform for corporate companies and young graduates to interact for <br>their mutual benefit.          
-    </p>
-    <img src="./6703900.png" id="cert">
-    <img src="./3385992.png" id="ment">
-  </div>
-  <div class="box14">
-   
-    <img src="./aftmg1648192264.jpg" id="aft">
-   <button id="anual">
-       College Annual Day 
-   </button>
-  </div>
-<div class="four">
-  <div class="box14">
-   
-    <img src="./eyilp1648191758.jpg" id="aft">
-   <button id="anual">
-       NCC
-   </button>
-  </div>
-</div>
-<div class="five">
-  <div class="box14">
-   
-    <img src="./ktczb1579686639.jpg" id="aft">
-   <button id="anual">
-       Seminar On Energy Conversation
-   </button>
-  </div>
-</div>
-<div class="six">
-  <div class="box14">
-   
-    <img src="./uzqsh1579686617.jpg" id="aft">
-   <button id="anual">
-       Identifying Entreprenenr
-   </button>
-  </div>
-</div>
-<div class="box15">
-  <h1 id="cas">
-    KSG CAS
-  </h1>
-  <h2 id="bars">
-
-  </h2>
-  <h3 id="event">
-    Event @ KSG
-  </h3>
-  <p id="digit">
-    A digital JobFair was hosted by KSG College of Arts and Science and Trijobs on 9th January 2019. A total of 33 companies offered job openings<br><br>
-
-Student also had an interaction with the guest and gained knowledge on Entrepreneurship and how to start a business.<br><br>
-
-The resource person conducted various activities and break through session for stress relieving,students actively participated and enjoyed the session.<br><br>
-
-The main Motto of this Programme is about the “ENERGY CONSERVATION”. More than 250 students were participated in this seminar.
-  </p>
-</div>
-<div class="box16">
-  <h1 id="our">
-    Our Prominent Recruiters
-
-  </h1>
- 
-</div>
-<div class="box17">
-  <img src="./a1.jpeg" id="a">
-  <img src="./b.jpg" id="a">
-  <img src="./c.jpg" id="a">
-  <img src="./d.jpg" id="a">
-  <img src="./e.jpg" id="a">
-  <img src="./f.jpg" id="a">
-  <img src="./g.jpg" id="a">
-  <img src="./h.jpg" id="a">
-  <img src="./i.jpg" id="a">
-  <img src="./j.jpg" id="a">
- 
-
-</div>
-
-<div class="box18">
-  <img src="./ipad.png" id="pad">
-  <h2 id="col">
-    KSG COLLEGE
-  </h2>
-  <p id="the">
-  
-  The KSG Educational Trust was started on 4th July 1997 with the sole aim of imparting quality education to all the aspirants of the needy poor category in and around Coimbatore.
-  </p>
-  <img src="./b1 (2).png" alt="" id="b1">
-  <img src="./b2 (2).png" alt="" id="b2">
-  <img src="./b3 (2).png" alt="" id="b3">
-  <img src="./b4 (2).png" alt="" id="b4">
-  </div>
-<div class="box19">
-  <h1 id="site">
-    Sitemap
-  </h1>
-  <ul id="u1">
-    <li  id="l1"><a href="ksg cas.html"> Home</a></li><i class="fa-solid fa-play" id="f0"></i>
-    <li  id="l1"><a href="ksg cas.html">About Us</a></li><i class="fa-solid fa-play" id="f1"></i> 
-    <li  id="l1"><a href="ksg cas.html">Coures</a></li><i class="fa-solid fa-play" id="f2"></i>
-    <li  id="l1"><a href="ksg cas.html">Addmission</a></li><i class="fa-solid fa-play" id="f3"></i>
-    <li  id="l1"><a href="ksg cas.html">Event</a></li><i class="fa-solid fa-play" id="f4"></i> 
-    <li  id="l1"><a href="ksg cas.html">Gallery</a></li><i class="fa-solid fa-play" id="f5"></i> 
-    <li  id="l1"><a href="ksg cas.html">History</a></li><i class="fa-solid fa-play" id="f6"></i> 
-    <li  id="l1"><a href="ksg cas.html">Campus</a></li><i class="fa-solid fa-play" id="f7"></i>
-    <li  id="l1"><a href="ksg cas.html">Placement</a></li><i class="fa-solid fa-play" id="f8"></i>
-    <li  id="l1"><a href="ksg cas.html">Contact</a></li><i class="fa-solid fa-play" id="f9"></i>
-    <li  id="l1"><a href="ksg cas.html"></a></li><i class="fa-solid fa-play" id="f10"></i>
-  </ul>
-</div>
-   <div class="box20">
-    <h1 id="act">Activities</h1>
-    <ul id="u2">
-    <li id="l2">Research</li><i class="fa-solid fa-play" id="n1"></i>
-    <li  id="l2">Yoga Center</li><i class="fa-solid fa-play" id="n2"></i>
-    <li  id="l2">Scholership</li><i class="fa-solid fa-play" id="n3"></i>
-    <li  id="l2">Uow</li><i class="fa-solid fa-play" id="n4"></i>
-    <li  id="l2">NIRF</li><i class="fa-solid fa-play" id="n5"></i>
-  </ul>
-</div>
-<div class="box21">
-  <h1 id="cont">Contact Us</h1>
-  <img src="./s1.png" alt="" id="s1">
-  <img src="./s2.png" alt="" id="s2">
-  <img src="./s3.png" alt="" id="s3">
-  <img src="./s4.png" alt="" id="s4">
-  <img src="./s5.png" alt="" id="s5">
- <p id="add">
-  93, Kamaraj Road,Uppilipalayam(PO)
-
-,Singanallur,Coimbatore-641 015.
- </p>
- <p id="num">+91 8148277777, 8148377777</p>
- <p id="num2">91-0422-2592643</p>
- <p id="num3">ksgprincipal@gmail.com</p>
- <p id="num4">www.ksgcollege.com</p>
-</div>
-</div>
-  <script>
-
-    var song=document.getElementById("song");
-    var icon=document.getElementById("icon");
-    icon.onclick=function()
+    body
     {
-      if(song.paused)
-      {
-        song.play()
-      icon.src="./copy2.png";
-      }
-      else
-      {
-         song.pause()
-         icon.src="./copy1.png";
-      }
-
-
+        background: white;
+    }
+    #container
+    {
+        position: relative;
+        background: rgba(245, 222, 179, 0.86);
+        width: 379px;
+        height: 65px;
+        left: -30px;
+        top: -5px;
+        border-radius: 2px;
 
     }
+ul
+{
+    position: absolute;
+   margin-left: 12%;
+   display: flex;
+   list-style: none;
+}
+li 
+{
+    padding: 32px 6.6px;
+    font-size: 12px;
+    font-weight: bold;
+    color: brown;
+    font-family:Sitka Display;
+}
+li::before
+{
+    content: "";
+    position: absolute;
+    background: red;
+    width: 19px;
+    top: 50px;
+    height: 3px;
+   opacity: 0;
+   transition: 1s ease-in;
+
+}
+li:hover::before
+{
+    transition: 1s ease-in;
+    transform: translateX(5px);
+    opacity: 2;
+    background:crimson;
+    border-radius: 30px;
+
+}
+#logo
+{
+    position: absolute;
+    margin-top: -1.5%;
+    margin-left: 7%;
+    width:50px;
+    height:90px;
+}
+#log
+{
+    margin-top: -353px;
+    margin-left: 560px;
+    z-index: 2;
+    width: 80px;
+    height: 40px;
+    color: red;
+    font-family: cursive;
+    border-radius: 10px;
+}
+#shop
+{
+    position: absolute;
+    width: 45px;
+    top: 13px;
+    left: 580px;
+    cursor: pointer;
+}
+#slide
+{
+    
+    margin-top: 0.1%;
+    width: 340px;
+    height: 220px;
+    margin-left: 5px;
+    border-radius: 15px;
+    z-index: -1;
+}
+#pre
+{
+    margin-top: 550px;
+    margin-left: -61px;
+}
+#next
+{
+    position: relative;
+    left: 268px;
+    top: 275px;
+}
+marquee
+{
+
+    position: absolute;
+    top: 286px;
+    left: -10px;
+    font-family:Fixedsys ;
+    font-weight: bold;
+    color:crimson;
+    font-size: 12px;
+}
+h1
+{
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 20px;
+    font-size: 19px;
+    font-family: "Trirong";
+}
+p
+{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 20px;
+    font-size:7px;
+    font-family: "Trirong";
+}
+button
+{
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    border-radius: 10px;
+    outline: none;
+    color: blueviolet;
+    width: 70px;
+    font-size:10px;
+    height: 23px;
+    text-transform: capitalize;
+    font-family: "Trirong";
+ 
+}
+.back
+{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    margin-top: -230px;
+    margin-left: 320px;
+    z-index: 6;
+    cursor: pointer;
+}
+h2
+{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 3;
+    color: black;
+
+}
+#man
+{
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    top: 350px;
+    left: 5px;
+    border-radius: 10px;
+}
+#bake
+{
+    position: absolute;
+    top: 350px;
+    left: 130px;
+    width:210px;
+    font-size: 10px;
+    color: black;
+}
+h4
+{
+    position: absolute;
+    color: black;
+    top: 560px;
+    left: 59px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.blog
+{
+    position: absolute;
+    top: 620px;
+    left: 5px;
+    height: 180px;
+    width: 340px;
+}
+h5
+{
+    position: absolute;
+    color: black;
+    top: 870px;
+    left: 59px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.box2
+{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background: transparent;
+    top: 720px;
+    left:-12px;
+    overflow: hidden;
+}
+
+.box3
+{
+    position: absolute;
+    left: -10px;
+    top: 1505px;
+}
+.box4
+{
+    position: absolute;
+    left: -10px;
+    top: 2010px;
+}
+.box5
+{
+    position: absolute;
+    left: -10px;
+    top: 2510px;
+}
+.one
+{
+    position: absolute;
+     left: 0px;
+    top: 500px;
+}
+.two
+{
+    position: absolute;
+    left: 0px;
+    top: 500px;;
+}
+.box6
+{
+    position: relative;
+}
+.video
+{
+    position: absolute;
+    top:550px;
+    left: 75px;
+    font-size: 20px;
+    color: black;
+      font-weight:bold ;
+}
+.make
+{
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    top: 300px;
+    left:510px;
+}
+.makes
+{
+    position: absolute;
+    top: 820px;
+    left: 40px;
+    font-size: 15px;
+    width: 320px;
+    color: black;
+}
+.box7
+{
+    position: relative;
+    top: 1260px;
+    margin-left: 95px;
+    width: 340px;
+    height: 370px;
+    background: lightgrey;
+    border-radius: 10px;
+}
+.Contact
+{
+position: absolute;
+   margin-top:1090px;
+    margin-left: 120px;
+    color: black;
+    z-index: 6;
+    font-weight:bold;
+}
+input
+{
+    position: absolute;
+    left: 110px;
+    width: 230px;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 1px;
+}
+label
+{
+    position: absolute;
+    left: 10px;
+    margin-top: 70px;
+}
+#info
+{
+    position: absolute;
+    left: 130px;
+    top: 310px;
+    width:100px;
+    height:40px;
+}
+
+
+#log
+{
+    display: none;
+    margin-top: -358px;
+    margin-left: -40px;
+    z-index: 2;
+    width: 60px;
+    height: 40px;
+    color: red;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+#shop
+{
+    display: none;
+    position: absolute;
+    width: 65px;
+    top: -5px;
+    left: -10px;
+    cursor: pointer;
+}
+h4::before
+{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 150px;
+    top: 30px;
+    height: 3px;
+   opacity: 0;
+   transition: 1s ease-in;
+
+}
+h4:hover::before
+{
+    transition: 1s ease-in;
+    transform: translateX(15px);
+    opacity: 2;
+    background:crimson;
+    border-radius: 30px;
+
+}
+}
+
+    </style>
+</head>
+<body>
+<div id="container">
+    
+<ul>
+    <li id="home">Home</li></a>
+    <li><a href="#about">About </li></a>
+    <li><a href="#product">Product</li></a>
+    <li><a href="#fall">Gallery</li></a>
+    <li><a href="#vid">Making</li></a>
+    <li><a href="#contact">Contact</li></a>
+</ul>
+<img src="https://i.ibb.co/tx1w4Hm/logo1.png" alt="" id="logo">
+
+
+</div>
+<marquee >
+    &#128509;Great Diwali Offer 30% in Every Cake Orders..&#128151;
+</marquee>
+<div class="box">
+   
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item" data-bs-interval="2000"> 
+            <img src="https://i.ibb.co/rMW6RC1/img1.jpg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+          <div class="carousel-item"  data-bs-interval="2000">
+            <img src="https://i.ibb.co/5kBS8n3/img4.jpg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+          <div class="carousel-item"  data-bs-interval="000">
+            <img src="https://i.ibb.co/CbGGMfG/img5.jpg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+          <div class="carousel-item active"  data-bs-interval="000">
+            
+            <h1>Quality Products...<br>
+                with sweet,eggs & breads
+            </h1>
+            <p>This drastic appeal for baked goods promated baking all <br>Thoughtout europe and expanded into the eastern parts of asia</p>
+            <button><a href="index1.html" target="_blank">Shop Now</button></a>
+            <img src="https://i.ibb.co/BP3JgZg/img8.jpg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+          <div class="carousel-item"  data-bs-interval="000">
+            <img src="https://i.ibb.co/Gc26F1L/img3.jpg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" id="pre"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" id="next"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <h2 id="about">About Us Our Cake Shop</h2>
+        <p id="bake">Baked goods have been around for thousdands of years.<br>
+         the art of baking was developed early during Roman Empire.<br>
+         it was a highly famous art as roman citizens loved baked goods.<br>
+         the bakery includes a coffee bar and full lunch menu.experince new paltz!vist the bakery.
+         people known since 1981 for great bagels...
+         
+        </p>
+        <img src="https://i.ibb.co/NFcdQ4s/man.jpg" alt="" id="man">
+        <a href="#home">
+        <img src="https://i.ibb.co/zQzs0vJ/back.png"  class="back" id="home" title="click Me" >
+        </a>
+       
+       <h4 id="product">Our Papulor Products</h4>   
+       <img src="https://i.ibb.co/42h7YRw/img9.png" alt="" class="blog">
+       <h5 id="fall">Fall Baking Gallery</h5>
+      </div>
+      <button id="log" >
+        Login
+    </button>
+    <img src="https://i.ibb.co/k6JJG3V/shop.png" alt="" id="shop"> 
+    
+    <div class="box2">
+        <div class="card" style="width: 250px; left: 63px; height: 430px; border-radius: 10px;background: lightgray; margin-top: 2px;">            
+        <img class="card-img-top" src="https://i.ibb.co/hBrBTmR/n2.jpg" alt="Card image cap" style="width: 239px;height: 255px;border-radius: 12px;margin-left: 4px;margin-top: 10px;">
+            <div class="card-body">
+              <p class="card-text" id="title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary" id="go">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    <div class="box3">
+        <div class="card" style="width: 250px; left: 63px; height: 430px; border-radius: 10px;background: lightgray; margin-top: 2px;">  
+            <img class="card-img-top" src="https://i.ibb.co/h2vCQPg/n3.jpg" alt="Card image cap" style="width: 239px;height: 255px;border-radius: 12px;margin-left: 4px;margin-top: 10px;">
+            <div class="card-body">
+              <p class="card-text" id="title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary" id="go">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    <div class="box4">
+       <div class="card" style="width: 250px; left: 63px; height: 430px; border-radius: 10px;background: lightgray; margin-top: 2px;">  
+            <img class="card-img-top" src="https://i.ibb.co/kx8wwZJ/n5.jpg" alt="Card image cap" style="width: 239px;height: 255px;border-radius: 12px;margin-left: 4px;margin-top: 10px;">
+            <div class="card-body">
+              <p class="card-text" id="title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary" id="go">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    <div class="box5">
+       <div class="card" style="width: 250px; left: 63px; height: 430px; border-radius: 10px;background: lightgray; margin-top: 2px;">  
+            <img class="card-img-top" src="https://i.ibb.co/Kr5FtgX/n6.jpg" alt="Card image cap" style="width: 239px;height: 255px;border-radius: 12px;margin-left: 4px;margin-top: 10px;">
+            <div class="card-body">
+              <p class="card-text" id="title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary" id="go">Go somewhere</a>
+            </div>
+    </div>
+   <div class="one">
+   <div class="card" style="width: 250px; left: 63px; height: 430px; border-radius: 10px;background: lightgray; margin-top: 2px;">  
+      <img class="card-img-top" src="https://i.ibb.co/30wcJxw/n4.jpg" alt="Card image cap" style="width: 239px;height: 255px;border-radius: 12px;margin-left: 4px;margin-top: 10px;">
+      <div class="card-body">
+        <p class="card-text" id="title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary" id="go">Go somewhere</a>
+      </div>
+   </div>
+   <div class="two">
+    <div class="card" style="width: 250px; left: 63px; height: 430px; border-radius: 10px;background: lightgray; margin-top: 2px;">  
+      <img class="card-img-top" src="https://i.ibb.co/3stx44s/img7.jpg" alt="Card image cap" style="width: 239px;height: 255px;border-radius: 12px;margin-left: 4px;margin-top: 10px;">
+      <div class="card-body">
+        <p class="card-text" id="title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary" id="go">Go somewhere</a>
+      </div>
+   </div>
+ </div>
+ 
+ <div class="box6">
+    <h1 class="video" id="vid">Our Cake Making Video</h1>
+    <video src="./video.mp4" controls autoplay muted class="make">
+        
+    </video>
+    <p class="makes">A basic flour mixture serves as the foundation for sweet and rich cakes and what are known as little cakes, called cookies, and their savory cousins being quick-breads and yeast breads. Basic ingredients for made-from-scratch cake recipes often include flour, sweetener (sugar), fat (butter, vegetable oil), liquid (milk), leavening agent (steam, beaten eggs, baking powder and/or baking soda), and flavorings (salt, vanilla extract). Cakes can also be purchased ready-made or baked with packaged mixes that come ready to be combined with water, eggs and vegetable oil.  </p>
+    <h1 class="Contact" id="contact">
+        Contact Us
+    </h1> 
+</div>
+
+<div class="box7">
+     <form action="mailto:dhanushdavid50@gmail.com">
+     <label>NAME:</label> 
+      <input type="text" name="" placeholder="DHANUSH N" disabled><br><br><br><br>
+      <label>EMAIL:</label> 
+
+      <input type="email" name="" id="" placeholder="dhanushdavid50@gmail.com" disabled><br><br><br><br>
+      <label>CONTACT:</label> 
+
+      <input type="number" name="" id="" placeholder="7339028177" disabled><br><br><br><br>
+      <button class="btn btn-success" id="info" >
+        More Info
+      </button>
+  
 
 
 
-    </script>
+    </form>
+</div>
+</div>
+<script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
